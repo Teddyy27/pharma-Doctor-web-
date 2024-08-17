@@ -1,0 +1,978 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Pharma</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./Style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+        viewBox="0 0 16 16">
+        <path
+            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+    </svg> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <section class="hero-section">
+        <header>
+            <div class="contact-reference">
+                <!-- <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6"><span>Welcome to Pharma. We provides medical accessories</span>
+                        </div>
+                        <div class="col-2  ">
+                            <div class="call-icon">
+                                <img src="./imgs/hero-section/Phone.png" alt="call-handle">
+                            </div>
+                            <span>(404) 850 - 7080</span>
+                        </div>
+                        <div class="col-2">
+                            <div class="call-icon">
+                                <img src="./imgs/hero-section/Phone.png" alt="call-handle">
+                            </div>
+                            <span>(404) 850 - 7080</span>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="container">
+                    <div class="col more"><span>Welcome to Pharma. We provides medical accessories</span></div>
+                    <div class="col-2 offset-4 ">
+                        <div class="call-icon">
+                            <img src="./imgs/hero-section/Phone.png" alt="call-handle">
+                        </div>
+                        <span>(404) 850 - 7080</span>
+                    </div>
+                    <div class="col-2 ">
+                        <div class="call-icon">
+                            <img src="./imgs/hero-section/Phone.png" alt="call-handle">
+                        </div>
+                        <span>(404) 850 - 7080</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light d-flex">
+                    <a class="navbar-brand" href="#">
+                        <img src="./imgs/hero-section/Icon.png" alt="Pharma-logo">
+                        <Span>Pharma</Span>
+
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Service</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Price
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Drop 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Drop 2</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">more</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn btn-primary">Appointment</a>
+                </nav>
+            </div>
+
+
+
+
+
+        </header>
+
+        <div class="hero">
+            <div class="container addition">
+                <div class="bg-img-pharma">
+                    <img src="./imgs/hero-section/bg-pharma-hero-sec.png" class="img-fluid rounded-top"
+                        alt="Pharma-bg" />
+                    <div class="container">
+                        <div class="head-bg">
+                            <h3>MEDICAL PROFESSIONALS</h3>
+                        </div>
+                        <h4>Makes Your Health Better Will Makes Us Better</h4>
+                        <p>Our team of highly trained professionals uses the latest healing technologies to restore you
+                            to
+                            pain-free health quickly and easily.</p>
+                        <a href="#" class="btn btn-secondary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+    <section class="section-1">
+        <div class="container">
+            <div class="service-head">
+                <h3>SERVICES</h3>
+                <h4>Feel Like Home With Best
+                    Medical Care</h4>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card-group">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./imgs/Section-1/capsule.png" alt="Angioplasty style=" height: 40px;">
+                                <h5>Angioplasty</h5>
+                                <p>Our team of highl professionals
+                                    uses the latest heal echnologies
+                                    health quickly and easily.</p>
+                                <a href="#">Read more
+                                    <div class="btn btn-add">
+                                        <i class="bi bi-plus"></i>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card-group">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./imgs/Section-1/heart-monitor.png" alt="cardiology" style="height: 40px;">
+                                <h5>Cardiology</h5>
+                                <p>Our team of highl professionals
+                                    uses the latest heal echnologies
+                                    health quickly and easily.</p>
+                                <a href="#">Read more
+                                    <div class="btn btn-add active">
+                                        <i class="bi bi-plus"></i>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 noSpace-1">
+                    <div class="card-group">
+                        <div class="card combined">
+                            <div class="card-body">
+                                <img src="./imgs/Section-1/Tooth-dental.png" alt="dental" style="height: 40px;">
+                                <h5>Dental</h5>
+                                <p>Our team of highl professionals
+                                    uses the latest heal echnologies
+                                    health quickly and easily.</p>
+                                <a href="#">Read more
+                                    <div class="btn btn-add">
+                                        <i class="bi bi-plus"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-img">
+                                <img class="img-dentist-1" src="./imgs/Section-1/Dentist-1.png" alt="dental">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6 noSpace-2">
+                    <div class="card-group">
+                        <div class="card">
+
+                            <img class="img-dentist-1" src="./imgs/Section-1/Dentist-1.png" alt="dental">
+
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-lg-6 col-md-6 noSpace-3">
+                    <div class="card-group">
+                        <div class="card combined">
+                            <div class="card-body">
+                                <img src="./imgs/Section-1/eye.png" alt="eye care" style="height: 40px;">
+                                <h5>Eye Care</h5>
+                                <p>Our team of highl professionals
+                                    uses the latest heal echnologies
+                                    health quickly and easily.</p>
+                                <a href="#">Read more
+                                    <div class="btn btn-add">
+                                        <i class="bi bi-plus"></i>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="card-img">
+                                <img class="img-dentist-1" src="./imgs/Section-1/Dentist-2.png" alt="doctor">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6 noSpace-4">
+                    <div class="card-group">
+                        <div class="card">
+
+                            <img class="img-dentist-1" src="./imgs/Section-1/Dentist-2.png" alt="doctor">
+
+                        </div>
+                    </div>
+                </div> -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card-group">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./imgs/Section-1/brain.png" alt="endocrinology" style="height: 40px;">
+                                <h5>Endocrinology</h5>
+                                <p>Our team of highl professionals
+                                    uses the latest heal echnologies
+                                    health quickly and easily.</p>
+                                <a href="#">Read more
+                                    <div class="btn btn-add">
+                                        <i class="bi bi-plus"></i>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="card-group">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="./imgs/Section-1/injection.png" alt="orthopaedics" style="height: 40px;">
+                                <h5>Orthopaedics</h5>
+                                <p>Our team of highl professionals
+                                    uses the latest heal echnologies
+                                    health quickly and easily.</p>
+                                <a href="#">Read more
+                                    <div class="btn btn-add">
+                                        <i class="bi bi-plus"></i>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="section-2">
+        <div class="img-bg-section-2">
+            <img src="./imgs/Section-2/doctor-abot-us.png" class="img-fluid rounded-top" alt="" />
+
+            <div class="container">
+                <div class="about-us-Section-2">
+                    <h3>ABOUT US</h3>
+                </div>
+                <h4>The Heart And Science Of Medicate Test</h4>
+                <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override
+                    the digital divide with information highway will close.</p>
+
+                <div class="about-us-more">
+                    <div class="Multi-Speciality-Pharma-Treatment">
+                        <div class="img-icon-1-section-2">
+                            <img src="./imgs/Section-2/Pharma-scroll.png" alt="Multi Speciality Pharma Treatment">
+                        </div>
+                        <span>Multi Speciality Pharma Treatment</span>
+                    </div>
+
+                    <div class="Hours-Medical-Service">
+                        <div class="img-icon-1-section-2">
+                            <img src="./imgs/Section-2/Clock.png" alt="24 Hours Medical Service">
+                        </div>
+                        <span>24 Hours Medical Service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-secondary">More About Us</a>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="./imgs/Section-2/bottom-bar/bed.png" alt="Spinal Care">
+                    <h5 class="font-1">Spinal Care</h5>
+                </div>
+                <div class="col">
+                    <img src="./imgs/Section-2/bottom-bar/capsule.png" alt="Mr.Medical">
+                    <h5 class="font-2">Mr.Medical</h5>
+                </div>
+                <div class="col">
+                    <img src="./imgs/Section-2/bottom-bar/add.png" alt="Twohands">
+                    <h5 class="font-3">Twohands</h5>
+                </div>
+                <div class="col spacing">
+                    <img src="./imgs/Section-2/bottom-bar/mask.png" alt="Health Care">
+                    <h5 class="font-4">Health Care</h5>
+                </div>
+                <div class="col">
+                    <img src="./imgs/Section-2/bottom-bar/heart.png" alt="Medical Love">
+                    <h5 class="font-5">Medical Love</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-3 -->
+    <section class="section-3">
+        <div class="container">
+            <div class="first-half-section-3">
+                <div class="SPEACIAL-CARE">
+                    <h3>
+                        SPEACIAL CARE
+                    </h3>
+                </div>
+                <h4>We provide a best care for your health with specialist</h4>
+                <div class="para-sec">
+                    <p>Collaboratively administrate empowered markets via plug-and-play networks. <span>Dynamically
+                            procrastinate
+                            B2C</span> users after installed base benefits. Dramatically visualize customer.</p>
+
+                    <p>Completely synergize resource taxing relationships via premier niche markets. Professionally
+                        cultivate one-to-one customer service with robust ideas. Dynamically innovate.
+                    </p>
+                </div>
+
+
+                <div class="quality-1">
+                    <img src="./imgs/Section-3/check.png" alt="check">
+                    <span>20+ years of excellence</span>
+                </div>
+                <div class="quality-2">
+                    <img src="./imgs/Section-3/check.png" alt="check">
+                    <span>Professional Experts</span>
+                </div>
+
+                <a href="#" class="btn btn-secondary">Discover Now</a>
+
+            </div>
+
+            <div class="second-half-section-3">
+                <div class="img-doc-1">
+                    <img src="./imgs/Section-3/doc-1.png" alt="doc-1">
+                </div>
+                <div class="img-doc-2">
+                    <img src="./imgs/Section-3/doc-2.png" alt="doc-2">
+                </div>
+                <div class="doc-name">
+                    <h4>Mark Broownn</h4>
+                    <span>Multispecialist</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <hr class="divider">
+    </div>
+
+    <!-- section-4 -->
+    <section class="section-4">
+        <div class="container">
+            <div class="feedback-head">
+                <div class="feedback">
+                    <h3>FEEDBACK</h3>
+                </div>
+                <h4>Feedbacks about our service from the bottom of heart</h4>
+            </div>
+
+            <div class="row gy-2">
+                <div class="col-md-6">
+                    <div class="feedback-card highlight ">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="card-person-img ">
+                                <img src="./imgs/Section-4/person-1.png" alt="Profile">
+
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Robert Davis</h5>
+                                <small class="text-muted">Dental Patient</small>
+                            </div>
+                            <span class="quote"><img src="./imgs/Section-4/colun.png" alt="quote"></span>
+                        </div>
+
+                        <hr>
+
+                        <p>Completely synergize resource taxing relationships via premier
+                            niche markets. Professionally cultivate one-to-one customer service with robust ideas.
+                            Dynamically innovate.</p>
+                        <div class="stars">
+                            <img src="./imgs/Section-4/Star.png" alt="rating">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="feedback-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="card-person-img">
+                                <img src="./imgs/Section-4/person-2.png" alt="Profile">
+
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Vanseena Adams</h5>
+                                <small class="text-muted">Dental Patient</small>
+                            </div>
+                            <span class="quote"><img src="./imgs/Section-4/colun.png" alt="quote"></span>
+                        </div>
+
+
+                        <hr>
+                        <p>Completely synergize resource taxing relationships via premier
+                            niche markets. Professionally cultivate one-to-one customer service with robust ideas.
+                            Dynamically innovate.</p>
+                        <div class="stars">
+                            <img src="./imgs/Section-4/Star.png" alt="rating">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feedback-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="card-person-img c">
+                                <img src="./imgs/Section-4/person-3.png" alt="Profile">
+
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Mark Brown</h5>
+                                <small class="text-muted">Dental Patient</small>
+                            </div>
+                            <span class="quote "><img src="./imgs/Section-4/colun.png" alt="quote"></span>
+                        </div>
+
+                        <hr>
+                        <p>Completely synergize resource taxing relationships via premier
+                            niche markets. Professionally cultivate one-to-one customer service with robust ideas.
+                            Dynamically innovate.</p>
+                        <div class="stars">
+                            <img src="./imgs/Section-4/Star.png" alt="rating">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="feedback-card">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="card-person-img">
+                                <img src="./imgs/Section-4/person-4.png" alt="Profile">
+
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Vanseena Adams</h5>
+                                <small class="text-muted">Dental Patient</small>
+                            </div>
+                            <span class="quote"><img src="./imgs/Section-4/colun.png" alt="quote"></span>
+                        </div>
+
+                        <hr>
+                        <p>Completely synergize resource taxing relationships via premier
+                            niche markets. Professionally cultivate one-to-one customer service with robust ideas.
+                            Dynamically innovate.</p>
+                        <div class="stars">
+                            <img src="./imgs/Section-4/Star.png" alt="rating">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- section-5 -->
+    <section class="section-5">
+        <!-- <div class="bg-img-sec-5">
+            <img src="./imgs/Section-5/bg-sec-5.png" alt="bg-img-pharma">
+        </div> -->
+        <div class="container">
+            <div class="head-section-5">
+                <div class="why-choose-pharma">
+                    <h3>WHY CHOOSING PHARMA</h3>
+                </div>
+                <p>Completely synergize resource taxing relationships via premier niche markets. Professionally
+                    cultivate one-to-one customer service with robust ideas. Dynamically innovate.</p>
+            </div>
+
+            <div class="row">
+                <div class="col space">
+                    <div class="tick-check-img">
+                        <img src="./imgs/Section-5/Tick.png" alt="check">
+
+                    </div>
+                    <span>Blood clotting disorder</span>
+                </div>
+                <div class="col space">
+                    <div class="tick-check-img">
+                        <img src="./imgs/Section-5/Tick.png" alt="check">
+
+                    </div>
+                    <span>Blood clotting disorder</span>
+                </div>
+                <div class="col space">
+                    <div class="tick-check-img">
+                        <img src="./imgs/Section-5/Tick.png" alt="check">
+
+                    </div>
+                    <span>Blood clotting disorder</span>
+                </div>
+                <div class="col">
+                    <div class="tick-check-img">
+                        <img src="./imgs/Section-5/Tick.png" alt="check">
+
+                    </div>
+                    <span>Blood clotting disorder</span>
+                </div>
+
+            </div>
+            <div class="row lower">
+                <div class="col space">
+                    <div class="tick-check-img">
+                        <img src="./imgs/Section-5/Tick.png" alt="check">
+
+                    </div>
+                    <span>Blood clotting disorder</span>
+                </div>
+                <div class="col space">
+                    <div class="tick-check-img">
+                        <img src="./imgs/Section-5/Tick.png" alt="check">
+
+                    </div>
+                    <span>Blood clotting disorder</span>
+                </div>
+                <div class="col">
+                    <div class="tick-check-img">
+                        <img src="./imgs/Section-5/Tick.png" alt="check">
+
+                    </div>
+                    <span>Blood clotting disorder</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-6 -->
+    <section class="section-6">
+        <div class="container">
+            <div class="header-sec-6">
+                <div class="head-text">
+                    <div class="medical-expert">
+                        <h3>MEDICAL EXPERTS</h3>
+
+                    </div>
+                    <h4>The Professional Doctors</h4>
+                </div>
+                <a href="#" class="btn btn-primary">View All Doctors</a>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 gx-4">
+                <div class="col">
+                    <div class="card">
+                        <div class="profile-img">
+                            <img src="./imgs/Section-6/Vanseena-Adams.png" class="card-img-top" alt="...">
+
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Vanseena Adams</h4>
+                                <h5>Dental Patient</h5>
+                            </div>
+                            <div class="card-link">
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col space">
+                    <div class="card">
+                        <div class="profile-img">
+                            <img src="./imgs/Section-6/Helen-Wilmore.png" class="card-img-top" alt="...">
+
+                        </div>
+
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Dr. Helen Wilmore</h4>
+                                <h5>Dental Patient</h5>
+                            </div>
+                            <div class="card-link">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <div class="profile-img">
+                            <img src="./imgs/Section-6/Kate-Winslot.png" class="card-img-top" alt="...">
+
+                        </div>
+
+
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h4>Dr. Kate Winslot</h4>
+                                <h5>Dental Patient</h5>
+                            </div>
+                            <div class="card-link">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-img">
+                            <img src="./imgs/Section-6/Vanseena-Adams.png" class="d-block w-40" alt="...">
+
+                        </div>
+                        <div class="carousel-caption d-block">
+                            <h4>Vanseena Adams</h4>
+                            <h5>Dental Patient</h5>
+                            <div class="card-link">
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="./imgs/Section-6/Helen-Wilmore.png" class="d-block w-40" alt="...">
+
+                        </div>
+                        <div class="carousel-caption  d-block">
+                            <h4>Dr. Helen Wilmore</h4>
+                            <h5>Dental Patient</h5>
+                            <div class="card-link">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="./imgs/Section-6/Kate-Winslot.png" class="d-block w-40" alt="...">
+
+                        </div>
+                        <div class="carousel-caption d-block">
+                            <h4>Dr. Kate Winslot</h4>
+                            <h5>Dental Patient</h5>
+                            <div class="card-link">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <div class="expert-stats">
+                <div class="row">
+                    <div class="col">
+                        <div class="head-text-stats"><span>25</span></div>
+                        <div class="sub-text-stats">
+                            <span class="sub-1 text-uppercase">years</span>
+                            <span class="sub-2 text-uppercase">Experience</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="head-text-stats"><span>893</span></div>
+                        <div class="sub-text-stats">
+                            <span class="sub-1 text-uppercase">Medicament</span>
+                            <span class="sub-2 text-uppercase">Invented</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="head-text-stats"><span>75</span></div>
+                        <div class="sub-text-stats">
+                            <span class="sub-1 text-uppercase">Awards</span>
+                            <span class="sub-2 text-uppercase">Winned</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="head-text-stats"><span>673 k</span></div>
+                        <div class="sub-text-stats">
+                            <span class="sub-1 text-uppercase">Happy</span>
+                            <span class="sub-2 text-uppercase">Clients</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="head-text-stats"><span>751</span></div>
+                        <div class="sub-text-stats ">
+                            <span class="sub-1 text-uppercase">Pharmacies</span>
+                            <span class="sub-2 text-uppercase">Partners</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- section-7 -->
+    <section class="section-7">
+        <div class="container">
+            <div class="header-sec-7">
+                <div class="head-text">
+                    <div class="medical-expert">
+                        <h3 class="text-uppercase">News Update</h3>
+                    </div>
+                    <h4>Latest Healthcare Articles</h4>
+                </div>
+                <a href="#" class="btn btn-primary">Read All News</a>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./imgs/Section-7/card-1.png" class="card-img-top" alt="card-1">
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">18 August 2023</h5>
+                            <p class="card-text">Open letter to the residents of Ellsworth, Maine</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./imgs/Section-7/card-2.png" class="card-img-top" alt="card-1">
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">18 August 2023</h5>
+                            <p class="card-text">What is a normal phenotype for aging mice?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./imgs/Section-7/card-3.png" class="card-img-top" alt="card-1">
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">18 August 2023</h5>
+                            <p class="card-text">It was popularised inner the with the release of containing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-img">
+                            <img src="./imgs/Section-7/card-4.png" class="card-img-top" alt="card-1">
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase">18 August 2023</h5>
+                            <p class="card-text">The Versatile Mouse Model for Rare Disease Research</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-8 -->
+    <section class="section-8">
+        <div class="container">
+            <div class="header-sec-8">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="logo-details">
+                            <div class="logo-img-sec-8">
+                                <img src="./imgs/hero-section/Icon.png" alt="Pharma">
+                            </div>
+                            <span>
+                                Pharma
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col offset-4">
+                        <div class="call-details">
+                            <div class="img-sec-8">
+                                <img src="./imgs/secition-8/call.png" alt="call-support">
+                            </div>
+                            <span>
+                                (+22) 123 - 4567 - 900
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col space">
+                        <div class="call-details">
+                            <div class="img-sec-8">
+                                <img src="./imgs/secition-8/call.png" alt="call-support">
+                            </div>
+                            <span>
+                                (+22) 123 - 4567 - 900
+                            </span>
+                        </div>
+                        <div class="email-details">
+                            <div class="img-sec-8">
+                                <img src="./imgs/secition-8/mail.png" alt="mail-support">
+                            </div>
+                            <span>
+                                support@doctorate.com
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col last">
+                        <div class="ref-link">
+                            <a href="#"><i class="bi bi-instagram icon-100"></i></a>
+                            <a href="#"><i class="bi bi-facebook icon-100"></i></a>
+                            <a href="#"><i class="bi bi-twitter icon-100"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="body-sec-8">
+                <p class="about-more">“A Simple Story About The Doctorate Medical Center & Health Care Foundation</p>
+                <div class="explore">
+                    <h4>Explore</h4>
+                    <div class="explore-content">
+                        <a href="#">Home</a>
+                        <a href="#">Services</a>
+                        <a href="#">About us</a>
+                        <a href="#">Testimonials</a>
+                        <a href="#">News</a>
+                    </div>
+                </div>
+
+                <div class="Uitility-Pages">
+                    <h4>Uitility Pages</h4>
+                    <div class="Uitility-content">
+                        <a href="#">Style Guide</a>
+                        <a href="#">Changelog</a>
+                        <a href="#">Licenses</a>
+                        <a href="#">Protected Page</a>
+                        <a href="#">404 Page</a>
+                    </div>
+                </div>
+
+                <div class="appointment">
+                    <h3>Book an appointment</h3>
+                    <h4>It is a long established fact that a reader will be distracted</h4>
+
+                    <div class="input-group mb-3">
+
+                        <input type="email" class="form-control" placeholder="your email address"
+                            aria-label="your email address" aria-describedby="basic-addon1">
+                    </div>
+                    <a href="#" class="btn btn-secondary">Submit</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="section-9">
+        <div class="container text-center">
+            <span>Copyright © Pharma | Designed by VictorFlow Templates</span>
+        </div>
+    </div>
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

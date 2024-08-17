@@ -1,0 +1,647 @@
+* {
+    font-family: Inter;
+    text-align: left;
+}
+
+
+.hero-section {
+    .contact-reference {
+        .container {
+
+            span {
+                color: #fff;
+                font-size: 16px;
+
+                font-weight: 400;
+                line-height: 25.6px;
+            }
+
+        }
+    }
+
+    .navbar {
+        .navbar-brand {
+            span {
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 31.5px;
+                color: #1C1C1C;
+            }
+        }
+
+        .collapse {
+            &.navbar-collapse {
+
+                align-self: center;
+
+                .nav-item {
+                    .nav-link {
+                        color: #1C1C1C;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 28.8px;
+
+                        &:hover {
+                            color: #0152A8;
+                            text-decoration: 1px solid #0152A8 underline;
+                            text-underline-offset: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .hero {
+        .container {
+            color: #1C1C1C;
+
+            h3 {
+                font-family: Lato;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22.72px;
+                letter-spacing: 0.415em;
+                text-align: left;
+
+            }
+
+            h4 {
+                font-family: Montserrat;
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 57.25px;
+                text-align: left;
+                color: #143450;
+
+            }
+
+            p {
+                font-family: Lato;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22.72px;
+                text-align: left;
+
+            }
+        }
+    }
+
+}
+
+.section-1 {
+    .container {
+        .service-head {
+
+            h3 {
+                color: #1C1C1C;
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19.88px;
+                letter-spacing: 0.415em;
+                text-align: left;
+            }
+
+            h4 {
+                font-family: Montserrat;
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 39px;
+                text-align: center;
+                color: #1C1C1C;
+            }
+        }
+
+        .row {
+            .col-lg-3 {
+                .card-group {
+                    .card {
+                        background-color: #F1F1F1;
+
+                        .card-body {
+                            a {
+                                font-family: Inter;
+                                font-size: 16px;
+                                font-weight: 500;
+                                line-height: 25.6px;
+                                text-align: left;
+                                color: #363636;
+                            }
+                        }
+
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+.section-2 {
+    .container {
+        background-color: #fff;
+
+        h3 {
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.88px;
+            letter-spacing: 0.415em;
+            text-align: left;
+
+        }
+
+        h4 {
+            color: #1C1C1C;
+            font-family: Montserrat;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 39px;
+            text-align: left;
+
+        }
+
+        p {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22.72px;
+            text-align: left;
+            color: #545454;
+        }
+
+        span {
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 19.88px;
+            text-align: left;
+            color: #1C1C1C;
+        }
+
+        .row {
+            color: #0152A8;
+
+            .font-1 {
+                font-family: Montserrat;
+                font-size: 25px;
+                font-weight: 600;
+                line-height: 32.5px;
+
+
+            }
+
+            .font-2 {
+                font-family: MuseoModerno;
+                font-size: 25px;
+                font-weight: 400;
+                line-height: 32.5px;
+
+
+            }
+
+            .font-3 {
+                font-family: Merienda;
+                font-size: 25px;
+                font-weight: 400;
+                line-height: 32.5px;
+
+
+            }
+
+            .font-4 {
+                font-family: JetBrains Mono;
+                font-size: 25px;
+                font-weight: 400;
+                line-height: 32.5px;
+                text-align: left;
+
+            }
+
+            .font-5 {
+                font-family: IM FELL French Canon SC;
+                font-size: 25px;
+                font-weight: 400;
+                line-height: 32.5px;
+                text-align: left;
+
+            }
+        }
+    }
+}
+
+.section-3 {
+    .first-half-section-3 {
+        h3 {
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.88px;
+            letter-spacing: 0.415em;
+            text-align: left;
+            color: #1C1C1C;
+        }
+
+        h4 {
+            font-family: Montserrat;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 39px;
+            text-align: left;
+            color: #1C1C1C;
+        }
+
+        p {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22.72px;
+            text-align: left;
+            color: #545454;
+
+            span {
+                color: #0152A8;
+                font-weight: 700;
+            }
+
+        }
+
+        .quality-1,
+        .quality-2 {
+            span {
+                font-family: Lato;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22.72px;
+                text-align: left;
+                color: #1C1C1C;
+            }
+        }
+    }
+
+    .second-half-section-3 {
+        h4 {
+            font-family: Montserrat;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 26px;
+            text-align: left;
+            color: #fff;
+        }
+
+        span {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22.72px;
+            text-align: left;
+            color: #9A9A9A;
+        }
+    }
+}
+
+.section-4 {
+    .container {
+        .feedback-head {
+            color: #1C1C1C;
+
+            h3 {
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19.88px;
+                letter-spacing: 0.415em;
+                text-align: left;
+                margin: unset;
+            }
+
+            h4 {
+                font-family: Montserrat;
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 39px;
+                text-align: center;
+
+            }
+        }
+
+        .row {
+            .col-md-6 {
+                h5 {
+                    font-family: Montserrat;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 22.9px;
+                    text-align: left;
+                    color: #1C1C1C;
+                }
+
+                small,
+                p {
+                    font-family: Lato;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22.72px;
+                    text-align: left;
+                    color: #545454;
+                }
+            }
+        }
+    }
+}
+
+.section-5 {
+    background-color: #DCEDFE;
+
+    .container {
+        h3 {
+            font-family: Lato;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 19.88px;
+            letter-spacing: 0.415em;
+            text-align: left;
+            color: #1C1C1C;
+        }
+
+        p {
+            font-family: Lato;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22.72px;
+            text-align: center;
+            color: #545454;
+        }
+
+        .row {
+            .col {
+                span {
+                    font-family: Lato;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22.72px;
+                    text-align: left;
+                    color: #0152A8;
+                }
+            }
+        }
+    }
+}
+
+.section-6 {
+    .container {
+        .header-sec-6 {
+            h3 {
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19.88px;
+                letter-spacing: 0.415em;
+                text-align: left;
+                color: #fff;
+            }
+
+            h4 {
+                font-family: Montserrat;
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 39px;
+                text-align: left;
+                color: #fff;
+            }
+
+            a {
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 25.6px;
+                text-align: left;
+
+            }
+        }
+
+        .row {
+            .col {
+                .card {
+                    color: #fff;
+
+                    h4 {
+                        font-family: Montserrat;
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 22.9px;
+                        text-align: center;
+
+                    }
+
+                    h5 {
+                        font-family: Lato;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 22.72px;
+                        text-align: center;
+
+                    }
+                }
+            }
+        }
+
+        .carusel {
+            .carousel-indicators {
+                li {
+                    background-color: #0152A8;
+                }
+            }
+
+            .carusel-inner {
+                .carousel-item {
+                    .card {
+                        color: #fff;
+
+                        h4 {
+                            font-family: Montserrat;
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 22.9px;
+                            text-align: center;
+
+                        }
+
+                        h5 {
+                            font-family: Lato;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.72px;
+                            text-align: center;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .expert-stats {
+            .head-text-stats {
+                span {
+                    font-family: Montserrat;
+                    font-size: 50px;
+                    font-weight: 600;
+                    line-height: 65px;
+                    text-align: left;
+                    color: #fff;
+                }
+            }
+
+            .sub-text-stats {
+                span {
+                    font-family: Lato;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24.22px;
+                    letter-spacing: 0.415em;
+                    text-align: center;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.section-7 {
+    .container {
+        .header-sec-7 {
+            h3 {
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19.88px;
+                letter-spacing: 0.415em;
+                text-align: left;
+                color: #1C1C1C;
+            }
+
+            h4 {
+                font-family: Montserrat;
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 39px;
+                text-align: left;
+                color: #1C1C1C;
+            }
+
+            a {
+                font-family: Inter;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 25.6px;
+                text-align: left;
+
+            }
+        }
+
+        .card {
+            h5 {
+                font-family: Lato;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19.88px;
+                letter-spacing: 0.415em;
+                text-align: left;
+                color: #1C1C1C;
+            }
+
+            p {
+                font-family: Montserrat;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 26px;
+                text-align: left;
+                color: #1C1C1C;
+            }
+        }
+    }
+}
+
+.section-8 {
+    .container {
+        .header-sec-8 {
+            .logo-details {
+                span {
+                    font-family: Inter;
+                    font-size: 30px;
+                    font-weight: 600;
+                    line-height: 31.5px;
+                    text-align: left;
+                    color: #1C1C1C;
+                }
+            }
+
+            .call-details,
+            .email-details {
+                span {
+                    font-family: Lato;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    text-align: left;
+                    color: #545454;
+                }
+            }
+        }
+
+        .body-sec-8 {
+            .about-more {
+                font-family: Montserrat;
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 42.3px;
+                text-align: left;
+                color: #1C1C1C;
+            }
+
+            .explore,
+            .Uitility-Pages {
+                h4 {
+                    font-family: Montserrat;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 22.9px;
+                    text-align: left;
+                    color: #1C1C1C;
+                }
+
+                a {
+                    text-decoration: none;
+                    font-family: Lato;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    text-align: left;
+                    color: #545454;
+                }
+            }
+
+            .appointment {
+                h3 {
+                    font-family: Montserrat;
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 22.9px;
+                    text-align: left;
+                    color: #1C1C1C;
+                }
+
+                h4 {
+                    font-family: Lato;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 22.72px;
+                    text-align: left;
+                    color: #545454;
+                }
+
+            }
+        }
+    }
+}

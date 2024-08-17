@@ -1,0 +1,1994 @@
+@import "./typograph";
+@import "./button";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+span {
+    cursor: pointer;
+}
+
+
+.hero-section {
+    .contact-reference {
+        background-color: #0152A8;
+        height: 61px;
+        align-content: center;
+
+        .container {
+            display: flex;
+            // align-items: center;
+
+            // margin: 0 359px;
+            .col {
+                &.more {
+                    max-width: 411px;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+
+            .col-2 {
+                display: flex;
+                align-items: center;
+                justify-content: end;
+
+                .call-icon {
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 17px;
+                    background-color: #095FBA;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 8.86px;
+                }
+            }
+
+        }
+    }
+
+    .container {
+        .navbar {
+            margin: 31px 0 23px 0;
+            justify-content: end;
+
+            .navbar-brand {
+                display: flex;
+                align-items: center;
+                flex-grow: 0.2;
+                position: absolute;
+                left: 0;
+            }
+
+            // .navbar-brand {
+            //     padding-left: 126px;
+            // }
+
+            .collapse {
+                &.navbar-collapse {
+                    // margin: 0 8%;
+                    flex-grow: 0.2;
+
+                    .nav-item {
+                        padding: 0 14px;
+
+                        &.active {
+                            color: #0152A8;
+                            text-decoration: 1px solid #0152A8 underline;
+                            text-underline-offset: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        // position: relative;
+
+        .container {
+            &.addition {
+                margin: unset;
+                padding: unset;
+                max-width: 1918px;
+                width: 100%;
+                position: relative;
+            }
+
+            .bg-img-pharma {
+
+                max-width: 1918px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+
+                // position: relative;
+                // max-width: 50%;
+                // max-height: 762px;
+                // height: 100%;
+                .container {
+                    // margin: unset;
+                    padding: unset;
+                    position: absolute;
+                    left: 240px;
+                    top: 200px;
+                    max-width: 582px;
+                    width: 100%;
+
+                    .head-bg {
+                        display: flex;
+                        // padding: 1px 11px;
+
+
+                        h3 {
+                            padding: 1px 11px;
+                            // max-width: 353px;
+                            background-color: #0FE3AF;
+                        }
+                    }
+
+                    h4 {
+                        max-width: 530.12px;
+                    }
+
+                    p {
+                        max-width: 390.61px;
+                    }
+
+                    .btn {
+                        &.btn-secondary {
+                            margin-top: 14px;
+
+                            &:hover {
+                                background-color: #06478b;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
+}
+
+
+.section-1 {
+    padding: 150px 0 160px;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .service-head {
+            max-width: 406px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h3 {
+                max-width: 140px;
+                padding: 3px 18px;
+                border: 0.5px solid #CECECE
+            }
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+
+            .col-lg-6 {
+                width: 47%;
+            }
+
+            .col-lg-3,
+            .col-lg-6 {
+                padding: unset;
+                display: flex;
+                // justify-content: center;
+                // &.noSpace-1{
+                //     padding: 0 0 0 12px;
+                // }
+                // &.noSpace-2{
+                //     padding: 0 12px 0 0;
+                // }
+                // &.noSpace-3{
+                //     padding: 0 0 0 12px;
+                // }
+                // &.noSpace-4{
+                //     padding: 0 12px 0 0;
+                // }
+
+                .card-group {
+                    .card {
+                        align-items: self-start;
+                        max-width: 304.02px;
+                        max-height: 297.5px;
+                        background-color: #F1F1F1;
+
+                        &.combined {
+                            display: flex;
+                            flex-direction: row;
+                            max-width: 589.29px;
+
+                            .card-body,
+                            .card-img {
+                                width: 50%;
+                            }
+
+                            .card-img {
+                                img {
+                                    object-fit: contain;
+                                }
+                            }
+
+
+                        }
+
+                        .img-dentist-1 {
+                            width: 100%;
+                        }
+
+                        .card-body {
+                            padding: 45px 30px;
+
+                            img {
+                                margin-bottom: 17.32px;
+                            }
+
+                            h5,
+                            p {
+                                margin-bottom: 11px;
+                            }
+
+                            a {
+                                text-decoration: none;
+                                display: flex;
+                                align-items: center;
+
+                                .btn {
+                                    &.btn-add {
+                                        margin-left: 8px;
+                                    }
+
+                                    .bi {
+                                        &.bi-plus {
+                                            color: #FFFFFF;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .img-bg-section-2 {
+        position: relative;
+        max-width: 1918px;
+        width: 100%;
+        display: flex;
+        margin-bottom: 98px;
+
+        justify-content: center;
+
+        img {
+            width: 100%;
+        }
+
+        .container {
+            padding: 52px 44px;
+            position: absolute;
+            right: 272px;
+            top: 200px;
+            max-width: 582px;
+            width: 100%;
+
+            .about-us-Section-2 {
+                max-width: 147px;
+                border: 0.5px solid #CECECE;
+                // display: flex;
+                // align-items: center;
+                // justify-content: center;
+                padding: 3.4px 15px;
+                margin-bottom: 12.62px;
+
+                h3 {
+                    margin: 0;
+                }
+            }
+
+            p {
+                max-width: 460px;
+            }
+
+
+            .about-us-more {
+                display: flex;
+                max-width: 460px;
+                margin-bottom: 30px;
+
+                .Multi-Speciality-Pharma-Treatment,
+                .Hours-Medical-Service {
+                    display: flex;
+                    max-width: 195px;
+                    width: 100%;
+                    align-items: center;
+
+                    .img-icon-1-section-2 {
+                        max-width: 59px;
+                        width: 100%;
+                        border: 1px solid #0FE3AF;
+                        border-radius: 30px;
+                        margin-right: 14px;
+
+                        img {
+                            width: 100%;
+                            padding: 17.47px;
+                        }
+                    }
+                }
+
+                .Multi-Speciality-Pharma-Treatment {
+                    margin-right: 25px;
+                }
+            }
+        }
+    }
+
+    .container {
+        .row {
+            display: flex;
+            justify-content: center;
+
+
+            .col {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &.spacing {
+                    h5 {
+                        font-size: 23px;
+
+                    }
+                }
+
+                img {
+                    margin-right: 9px;
+                }
+            }
+        }
+    }
+}
+
+.section-3 {
+    // display: flex;
+    margin-top: 78.74px;
+
+    .container {
+        display: flex;
+        justify-content: center;
+
+        .first-half-section-3 {
+            max-width: 518.87px;
+            margin-right: 150px;
+
+            .SPEACIAL-CARE {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 13px;
+                border: 0.5px solid #CECECE;
+                max-width: 216px;
+
+                h3 {
+                    margin: unset;
+                }
+            }
+
+            h4 {
+                margin-bottom: 23px;
+            }
+
+            .para-sec {
+                padding: 10px 0;
+            }
+
+            .quality-1,
+            .quality-2 {
+                display: flex;
+
+                img {
+                    padding: 1.6px 9px 1.6px 0;
+                }
+            }
+
+            .quality-1 {
+                margin: 30px 0 15px;
+            }
+
+            .quality-2 {
+                margin: 15px 0 30px;
+            }
+        }
+
+        .second-half-section-3 {
+            display: flex;
+            position: relative;
+
+            .img-doc-1,
+            .img-doc-2 {
+                max-width: 267.27px;
+                max-height: 513.97px;
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .img-doc-1 {
+                margin-right: 20px;
+            }
+
+
+            .doc-name {
+                position: absolute;
+                background-color: #1C1C1C;
+                display: flex;
+                flex-direction: column;
+                // align-items: center;
+                justify-content: center;
+                max-height: 75px;
+                padding: 13px 23px;
+                bottom: 78px;
+                right: 177px;
+
+            }
+        }
+    }
+}
+
+.container {
+    .divider {
+        border: 1px solid #DBDBDB;
+        max-width: 1200px;
+        width: 100%;
+        text-align: center;
+        margin: 141px 0 149px 0;
+    }
+}
+
+.section-4 {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .feedback-head {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 496.42px;
+            margin-bottom: 41px;
+
+            .feedback {
+                border: 0.5px solid #CECECE;
+                padding: 3px 7px;
+                margin-bottom: 13px;
+            }
+
+        }
+
+        .row {
+            .col-md-6 {
+
+                .feedback-card {
+                    background-color: #F1F1F1;
+                    padding: 46px;
+                    margin-bottom: 22px;
+                    max-width: 589px;
+
+                    .card-person-img {
+                        max-width: 68px;
+                        height: 68px;
+                        border-radius: 34px;
+                        overflow: hidden;
+                        margin-right: 19px;
+                        // &.c{
+                        //     position: relative;
+                        //     img{
+                        //         position: absolute;
+                        //         right: 0;
+                        //     }
+                        // }
+
+                        img {
+                            width: 100%;
+
+                        }
+                    }
+
+                    hr {
+                        max-width: 489px;
+                        border: 1px solid #CDCDCD;
+                        margin: 20px 0;
+                    }
+
+                    p {
+                        margin-bottom: 23px;
+                    }
+
+                }
+
+                .d-flex {
+                    position: relative;
+
+                    .quote {
+                        position: absolute;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-5 {
+    margin-top: 216px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .bg-img-sec-5 {
+        max-width: 1920px;
+    }
+
+    .container {
+        margin: 121px 0 247px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .head-section-5 {
+            max-width: 663.17px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+
+            .why-choose-pharma {
+                border: 0.5px solid #CECECE;
+                margin-bottom: 19px;
+
+                h3 {
+                    margin: 0;
+                    padding: 3px 22px;
+                }
+            }
+
+            p {
+                margin: unset;
+            }
+        }
+
+        .row {
+            &.lower {
+                margin-top: 46px;
+            }
+
+            .col {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &.space {
+                    margin-right: 52px;
+                }
+
+                .tick-check-img {
+                    margin-right: 9.21px;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+.section-6 {
+    background-color: #0152A8;
+
+    .container {
+        padding: 147px 10px;
+        max-width: 1213px;
+
+        .carousel {
+            display: none;
+        }
+
+        .header-sec-6 {
+            display: flex;
+            max-width: 1200px;
+            position: relative;
+
+            .btn {
+                &.btn-primary {
+                    position: absolute;
+                    right: 0;
+                    margin: 9px;
+                }
+            }
+
+
+            .head-text {
+                // margin-right: 50%;
+
+                .medical-expert {
+                    border: 0.5px solid #2B78CA;
+                    max-width: 227px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 13px;
+
+                    h3 {
+                        margin: unset;
+                    }
+                }
+            }
+
+            margin-bottom: 62px;
+
+            a {
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .row {
+            max-width: 1200px;
+            width: 100%;
+
+            .col {
+                max-width: 360px;
+
+                &.space {
+                    margin: 0 60px;
+                }
+
+                .card {
+                    background-color: #004A99;
+                    display: flex;
+                    align-items: center;
+
+                    .profile-img {
+                        padding: 30px 30px 23px 30px;
+                    }
+
+                    .card-body {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        .card-title {
+                            margin: unset;
+
+                            h5 {
+                                margin: unset;
+                            }
+                        }
+
+                        .card-link {
+                            margin-top: 23px;
+                            display: flex;
+                            justify-content: space-evenly;
+                            max-width: 120px;
+                            width: 100%;
+
+                            a {
+                                width: 22px;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .expert-stats {
+            margin: 132px 0 0 0;
+            border-top: 1px solid #2F85E1;
+            max-width: 1200px;
+            padding: 38px 32.4px 0;
+
+            .row {
+                max-width: 1213px;
+                width: 100%;
+
+                .col {
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+
+                    .head-text-stats {
+                        margin-bottom: 8px;
+                    }
+
+                    .sub-text-stats {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        span {
+                            border: 0.5px solid #2B78CA;
+                            padding: 2px 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-7 {
+    padding: 101px 0 224px 0;
+
+    .container {
+        .header-sec-7 {
+            display: flex;
+            position: relative;
+            margin-bottom: 47px;
+
+            .head-text {
+                .medical-expert {
+                    border: 0.5px solid #CECECE;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    max-width: 183.46px;
+                    margin-bottom: 13px;
+
+                    h3 {
+                        margin: unset;
+                    }
+                }
+            }
+
+            a {
+                position: absolute;
+                right: 0;
+                background-color: #FFFFFF;
+                border: 1.5px solid #DFDFDF;
+
+                &:hover {
+                    background-color: #0FE3AF;
+                }
+            }
+        }
+
+        .row {
+            .col {
+                .card {
+                    display: flex;
+                    flex-direction: row;
+
+                    .card-img {
+                        max-width: 220px;
+                    }
+
+                    .card-body {
+                        margin: 25px 0 25px 30px;
+                        padding: unset;
+
+                        .card-title {
+                            border: 0.5px solid #CECECE;
+                            max-width: 211px;
+                            margin-bottom: 18px;
+                            display: flex;
+                            justify-content: center;
+                        }
+
+                        .card-text {
+                            max-width: 335px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-8 {
+    background-color: #E5F2EF;
+    padding: 95px 0 99.47px;
+
+    .container {
+        .header-sec-8 {
+            .col {
+                max-width: 213.82px;
+                padding: unset;
+
+                &.space {
+                    margin: 0 53px;
+                    .call-details{
+                        display: none;
+                    }
+                }
+            }
+
+            .col {
+                display: flex;
+                align-items: center;
+
+                &.last {
+                    max-width: 120.35px;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                }
+
+                .ref-link {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+
+            .logo-details {
+                display: flex;
+                align-items: center;
+
+                .logo-img-sec-8 {
+                    margin-right: 3px;
+                }
+            }
+
+            .call-details,
+            .email-details {
+                display: flex;
+                align-items: center;
+
+                .img-sec-8 {
+                    width: 43.11px;
+                    height: 43.11px;
+                    background-color: #0FE3AF;
+                    border-radius: 21.5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 8.71px;
+                }
+            }
+
+
+            ::before {
+                font-size: x-large;
+            }
+        }
+
+        .body-sec-8 {
+            margin-top: 63px;
+            display: flex;
+            justify-content: space-between;
+
+            .about-more {
+                max-width: 370px;
+                // margin-right: 92px;
+            }
+
+            .explore,
+            .Uitility-Pages {
+                display: flex;
+                flex-direction: column;
+
+                .explore-content,
+                .Uitility-content {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .appointment {
+                max-width: 324px;
+
+                h3,
+                h4 {
+                    margin: 0 0 16px 0;
+                }
+
+                .form-control {
+                    padding: 17px 25px;
+                    border-radius: unset;
+                }
+            }
+        }
+    }
+}
+
+.section-9 {
+    .container {
+        padding: 19px 0 23px;
+    }
+}
+
+
+//-------------------------------Resposive screen 
+
+
+@media (max-width:1680px) {
+    .hero-section {
+        .hero {
+            .container {
+                .bg-img-pharma {
+                    .container {
+                        top: 130px;
+                        left: 105px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-2 {
+        .img-bg-section-2 {
+            .container {
+                padding: 42px 36px;
+                top: 120px;
+                right: 170px;
+            }
+        }
+    }
+}
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    .hero-section {
+        .contact-reference {
+            .container {
+
+                .col-2 {
+                    &.offset-4 {
+                        margin-left: 28%;
+                    }
+                }
+            }
+        }
+
+        .hero {
+            .container {
+                .bg-img-pharma {
+                    .container {
+                        top: 90px;
+                        left: 100px;
+                        max-width: 480px;
+
+                        h4 {
+                            font-size: 40px;
+                            line-height: 48px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section-2 {
+        .img-bg-section-2 {
+            .container {
+                padding: 37px 10px 37px 30px;
+                top: 60px;
+                right: 70px;
+
+                h4 {
+                    max-width: 460px;
+                }
+
+                .about-us-more {
+                    margin-bottom: 18px;
+                }
+            }
+        }
+
+        .container {
+            .row {
+
+
+                .col {
+                    img {
+                        width: 20%;
+                    }
+
+                    h5 {
+                        font-size: 20px;
+                        line-height: 26px;
+                        margin: 0;
+                    }
+
+                    &.spacing {
+                        h5 {
+                            font-size: 18px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section-3 {
+        .container {
+            .first-half-section-3 {
+                margin-right: 52px;
+            }
+        }
+    }
+}
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+    .hero-section {
+        .contact-reference {
+            .container {
+
+                .col-2 {
+                    width: 20%;
+
+                    &.offset-4 {
+                        margin-left: 22%;
+                    }
+                }
+
+                span {
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .container {
+            .navbar {
+                margin: 27px 0 20px 0;
+                justify-content: end;
+
+                // .navbar-brand {
+                //     padding-left: 126px;
+                // }
+
+                .collapse {
+                    &.navbar-collapse {
+                        // margin: 0 8%;
+                        flex-grow: 0.2;
+
+                        .nav-item {
+                            padding: 0 14px;
+
+                            a {
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .btn {
+                &.btn-primary {
+                    padding: 12px 28px;
+                }
+            }
+        }
+
+        .hero {
+            .container {
+                .bg-img-pharma {
+                    .container {
+                        top: 50px;
+                        left: 80px;
+                        max-width: 420px;
+
+                        h3 {
+                            font-size: 14px;
+                        }
+
+                        h4 {
+                            font-size: 33px;
+                            line-height: 40px;
+                        }
+
+
+                        .btn {
+                            &.btn-secondary {
+                                margin-top: 10px;
+                                padding: 14px 32px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .section-2 {
+        .img-bg-section-2 {
+            .container {
+                padding: 28px 0px 28px 21px;
+                top: 50px;
+                right: 40px;
+                max-width: 500px;
+
+                .about-us-Section-2 {
+                    padding: 3.4px 12px;
+                    margin-bottom: 7px;
+                }
+
+                h4 {
+                    font-size: 26px;
+                    line-height: 32px;
+                }
+
+                p {
+                    font-size: 13px;
+                    line-height: 17px;
+                    margin: 0 0 10px 0;
+                }
+
+                .about-us-more {
+                    margin-bottom: 15px;
+
+                    .Multi-Speciality-Pharma-Treatment,
+                    .Hours-Medical-Service {
+
+
+                        .img-icon-1-section-2 {
+                            max-width: 46px;
+                            margin-right: 10px;
+
+                            img {
+                                padding: 12px;
+                            }
+                        }
+                    }
+
+                    .Multi-Speciality-Pharma-Treatment {
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+
+        .container {
+            padding: 0;
+
+            .row {
+                .col {
+                    padding: unset;
+
+                    img {
+                        width: 18%;
+                    }
+
+                    h5 {
+                        font-size: 16px;
+                        line-height: 22px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-3 {
+        .container {
+            max-width: 1000px;
+
+            .first-half-section-3 {
+                margin-right: 0px;
+
+                h4 {
+                    margin-bottom: 5px;
+                }
+
+                .para-sec {
+                    padding: unset;
+                }
+
+                .quality-1 {
+                    margin: 20px 0 8px;
+                }
+
+                .quality-2 {
+                    margin: 8px 0 20px;
+                }
+            }
+
+            .second-half-section-3 {
+                .doc-name {
+                    right: 126px;
+                }
+            }
+        }
+    }
+}
+
+.container {
+    .divider {
+        margin: 81px 0;
+    }
+}
+
+.section-5 {
+    margin-top: 150px;
+
+    .container {
+        margin: 100px 0 170px 0;
+
+        .row {
+            .col {
+                &.space {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+.section-6 {
+    .container {
+        .row {
+            display: flex;
+            justify-content: space-between;
+
+            .col {
+                max-width: 320px;
+
+                &.space {
+                    margin: unset;
+                }
+
+                .card {
+
+                    // max-width: 330px;
+                    .profile-img {
+                        padding: 30px 20px 23px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-8 {
+    .container {
+        .header-sec-8 {
+            .col {
+
+                &.offset-4 {
+                    margin-left: 22%;
+                }
+
+                &.space {
+                    margin: 0 20px;
+                }
+            }
+        }
+
+        .body-sec-8 {
+            .about-more {
+                max-width: 320px;
+            }
+
+            .appointment {
+                max-width: 280px;
+            }
+        }
+    }
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    .hero-section {
+        .contact-reference {
+            height: 48px;
+
+            .container {
+
+                .col-2 {
+                    width: 20%;
+
+                    &.offset-4 {
+                        margin-left: 22%;
+                    }
+
+                    .call-icon {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+
+                span {
+                    font-size: 10px;
+                }
+            }
+        }
+
+        .container {
+            .navbar {
+                margin: 21px 0 16px 0;
+                justify-content: end;
+                padding: unset;
+
+                .navbar-brand {
+                    img {
+                        width: 33%;
+                    }
+
+                    span {
+                        font-size: 22px;
+                    }
+                }
+
+                .navbar-toggler {
+                    margin-right: 15px;
+                    border: none;
+                }
+
+
+            }
+
+            .btn {
+                &.btn-primary {
+                    padding: 8px 20px;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .hero {
+            .container {
+                .bg-img-pharma {
+                    .container {
+                        top: 50px;
+                        left: 80px;
+                        max-width: 360px;
+
+                        h3 {
+                            font-size: 9px;
+                        }
+
+                        h4 {
+                            font-size: 24px;
+                            line-height: 28px;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            line-height: 17px;
+                            max-width: 366px;
+                            margin: 0 0 12px 0;
+                        }
+
+                        .btn {
+                            &.btn-secondary {
+                                margin-top: 0px;
+                                padding: 8px 24px;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section-2 {
+        .img-bg-section-2 {
+            margin-bottom: 60px;
+
+            .container {
+                padding: 21px 21px;
+                top: 50px;
+                right: 3 0px;
+                max-width: 420px;
+
+                .about-us-Section-2 {
+                    padding: 3.4px 12px;
+                    margin-bottom: 7px;
+                    max-width: 120px;
+
+                    h3 {
+                        font-size: 11px;
+                    }
+                }
+
+                h4 {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+
+                p {
+                    font-size: 11px;
+                    line-height: 14px;
+                    margin: 0 0 10px 0;
+                }
+
+                .about-us-more {
+                    margin-bottom: 15px;
+
+                    .Multi-Speciality-Pharma-Treatment,
+                    .Hours-Medical-Service {
+
+
+                        .img-icon-1-section-2 {
+                            max-width: 34px;
+                            margin-right: 10px;
+
+                            img {
+                                padding: 8px;
+                            }
+                        }
+                    }
+
+                    .Multi-Speciality-Pharma-Treatment {
+                        margin-right: 15px;
+                    }
+                }
+
+                .btn {
+                    &.btn-secondary {
+                        padding: 13px 32px;
+                    }
+                }
+            }
+        }
+
+        .container {
+            .row {
+
+                .col-2,
+                .col-3 {
+
+                    // img{
+                    //     width: 17%;
+                    // }
+                    h5 {
+                        font-size: 14px;
+                        line-height: 18px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-3 {
+        .container {
+            .first-half-section-3 {
+                margin-right: 0px;
+                width: 50%;
+
+                h4 {
+                    margin-bottom: 5px;
+                }
+
+                .para-sec {
+                    padding: unset;
+                }
+
+                .quality-1,
+                .quality-2 {
+                    img {
+                        padding: 1.6px 9px 1.6px 0;
+                    }
+                }
+
+                .quality-1 {
+                    margin: 20px 0 8px;
+                }
+
+                .quality-2 {
+                    margin: 8px 0 20px;
+                }
+            }
+
+            .second-half-section-3 {
+                .doc-name {
+                    right: 126px;
+                }
+            }
+        }
+    }
+
+    .section-4 {
+        .container {
+            .feedback-head {
+                .feedback {
+                    padding: 3px 7px;
+                    margin-bottom: 13px;
+                }
+            }
+
+            .row {
+                .col-md-6 {
+                    .feedback-card {
+                        padding: 30px;
+                        margin-bottom: 22px;
+                        max-width: 589px;
+
+                        hr {
+                            max-width: 489px;
+                            margin: 20px 0;
+                        }
+
+                        p {
+                            margin-bottom: 23px;
+                        }
+                    }
+
+                    .d-flex {
+                        .quote {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section-5 {
+        .container {
+            .head-section-5 {
+                .why-choose-pharma {
+                    padding: 3px 22px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+
+                margin-bottom: 24px;
+            }
+
+            .row {
+                &.lower {
+                    margin-top: 20px;
+                }
+
+                .col {
+
+                    // &.space{
+                    //     margin-right: 10px;
+                    // }
+                    span {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-6 {
+        .container {
+            .header-sec-6 {
+                .head-text {
+                    .medical-expert {
+                        padding: 3px 22px;
+                    }
+                }
+            }
+
+            .carousel {
+                display: block;
+
+                .carousel-indicators {
+                    bottom: -140px;
+                }
+
+                .carousel-inner {
+                    overflow: unset;
+
+                    .carousel-item {
+                        .carousel-img {
+                            display: flex;
+                            justify-content: center;
+                        }
+
+                        .carousel-caption {
+                            left: unset;
+                            bottom: -120px;
+                            right: 38.8%;
+
+                            h5 {
+                                display: flex;
+                                justify-content: center;
+                            }
+
+                            .card-link {
+                                display: flex;
+                                justify-content: space-evenly;
+                                width: 100%;
+
+                                a {
+                                    width: 22px;
+                                    color: #FFFFFF;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .row-cols-1 {
+                display: none;
+            }
+        }
+    }
+
+    .section-7 {
+        .container {
+            .row {
+                .col {
+                    .card {
+                        flex-direction: column;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .section-8{
+        .container{
+            .header-sec-8{
+                .col-2{
+                    display: flex;
+                }
+                .col{
+                    .call-details{
+                        display: none;
+                    }
+                    &.space {
+                        margin: 0  20px ;
+                        display: flex;
+                        flex-direction: column;
+                        .call-details{
+                            display: flex;
+                            margin-bottom: 5px  ;
+                        }
+                    }
+                }
+            }
+            .body-sec-8{
+                flex-wrap: wrap;
+                .appointment{
+                    margin-top: 20px;
+                    max-width: unset;
+                }
+            }
+        }
+    }
+}
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    .hero-section {
+        .contact-reference {
+            height: 48px;
+
+            .container {
+
+                .col-2 {
+                    width: 20%;
+
+                    &.offset-4 {
+                        margin-left: 10%;
+                    }
+
+                    .call-icon {
+                        width: 20px;
+                        height: 20px;
+
+                        img {
+                            width: 50%;
+                        }
+                    }
+                }
+
+                span {
+                    font-size: 8px;
+                }
+            }
+        }
+
+        .container {
+            .navbar {
+                margin: 14px 0 10px 0;
+                justify-content: end;
+                padding: unset;
+
+                .navbar-brand {
+                    img {
+                        width: 22%;
+                    }
+
+                    span {
+                        font-size: 16px;
+                    }
+                }
+
+                .navbar-toggler {
+                    margin-right: 15px;
+                    border: none;
+
+                    .navbar-toggler-icon {
+                        width: 1.2em;
+                        height: 1.2em;
+                    }
+                }
+
+
+            }
+
+            .btn {
+                &.btn-primary {
+                    padding: 5px 17px;
+                    font-size: 11px;
+                }
+            }
+        }
+
+        .hero {
+            .container {
+                .bg-img-pharma {
+                    .container {
+                        top: 50px;
+                        left: 60px;
+                        max-width: 240px;
+
+                        .head-bg {
+                            h3 {
+                                line-height: 18px;
+                                font-size: 6px;
+                                padding: 0px 5px;
+                            }
+                        }
+
+
+                        h4 {
+                            font-size: 17px;
+                            line-height: 18px;
+                        }
+
+                        p {
+                            font-size: 10px;
+                            line-height: 14px;
+                            max-width: 366px;
+                            margin: 0 0 12px 0;
+                        }
+
+                        .btn {
+                            &.btn-secondary {
+                                margin-top: 0px;
+                                padding: 6px 18px;
+                                font-size: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section-1{
+        padding: 70px 0 80px;
+        .container{
+            .service-head{
+                h3{
+                    padding: 3px 10px;
+                    font-size: 12px;
+                }
+                h4{
+                    font-size: 23px;
+                }
+            }
+            .row{
+                .col-lg-6{
+                    width: 100%;
+                }
+
+                .col-lg-3,
+                .col-lg-6{
+                    .card-group{
+                        .card{
+                            max-width: 600px;
+                            &.combined{
+                                display: flex;
+                                .card-body,
+                                .card-img{
+                                    width: 100%;
+                                }
+                                .card-img{
+                                    img{
+                                        object-fit: contain;
+                                    }
+                                }
+                            }
+                            .card-body{
+                                padding: 30px 20px;
+                                
+                                img{
+                                    margin-bottom: 15px;
+                                }
+                                h5,
+                                p{
+                                    margin-bottom: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section-3{
+        .container{
+            flex-direction: column;
+            .first-half-section-3{
+                width: 100%;
+            }
+            .second-half-section-3{
+                justify-content: center;
+            }
+        }
+    }
+
+    
+    .section-7 {
+        .container {
+            .row {
+                .col {
+                    .card {
+                        flex-direction: row;
+                    }
+                }
+            }
+
+        }
+    }
+
+    
+}
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .hero-section {
+        .contact-reference {
+            height: 42px;
+
+            .container {
+
+                .col-2 {
+                    width: 20%;
+
+                    // &.offset-4 {
+                    //     margin-left: 10%;
+                    // }
+
+                    // .call-icon {
+                    //     width: 20px;
+                    //     height: 20px;
+
+                    //     img {
+                    //         width: 50%;
+                    //     }
+                    // }
+                }
+
+                span {
+                    font-size: 6px;
+                }
+            }
+        }
+
+        .container {
+            .navbar {
+                margin: 7px 0 5px 0;
+                justify-content: end;
+                padding: unset;
+
+                .navbar-brand {
+                    img {
+                        width: 20%;
+                    }
+
+                    span {
+                        font-size: 14px;
+                    }
+                }
+
+                .navbar-toggler {
+                    margin-right: 15px;
+                    border: none;
+
+                    .navbar-toggler-icon {
+                        width: 1.2em;
+                        height: 1.2em;
+                    }
+                }
+
+
+            }
+
+            .btn {
+                &.btn-primary {
+                    padding: 3px 11px;
+                    font-size: 9px;
+                }
+            }
+        }
+
+        .hero {
+            .container {
+                .bg-img-pharma {
+                    .container {
+                        top: 30px;
+                        left: 30px;
+                        max-width: 200px;
+
+                        .head-bg {
+                            h3 {
+                                font-size: 5px;
+                                line-height: 12px;
+                                padding: 0px 3px;
+                            }
+                        }
+
+                        h4 {
+                            font-size: 14px;
+                            line-height: 13px;
+                        }
+
+                        p {
+                            font-size: 8px;
+                            line-height: 10px;
+                            max-width: 366px;
+                            margin: 0 0 12px 0;
+                        }
+
+                        .btn {
+                            &.btn-secondary {
+                                margin-top: 0px;
+                                padding: 3px 13px;
+                                font-size: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

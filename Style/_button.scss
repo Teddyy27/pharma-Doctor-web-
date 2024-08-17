@@ -1,0 +1,46 @@
+.btn {
+    border: none;
+    border-radius: 0;
+
+    &.btn-primary {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28.8px;
+        text-align: right;
+
+        background-color: #0FE3AF;
+        padding: 16px 37px;
+        color: #363636;
+    }
+
+    &.btn-secondary {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25.6px;
+        text-align: left;
+
+        color: #fff;
+        padding: 17px 41px;
+
+        background-color: #0152A8;
+    }
+    &.btn-add{
+        max-width: 16.8px;
+        max-height: 16.8px;
+        padding: 4.55px;
+        border-radius: 8.3px;
+        background-color:#C9C9C9 ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover{
+            background-color: #0FE3AF;
+        }
+        &.active{
+            background-color: #0FE3AF;
+        }
+        
+    }
+}
