@@ -1611,21 +1611,22 @@ span {
   }
   .section-8 .container .header-sec-8 .col-2 {
     display: flex;
+    align-items: center;
+    width: 27%;
+    margin-bottom: 8px;
   }
-  .section-8 .container .header-sec-8 .col .call-details {
-    display: none;
-  }
-  .section-8 .container .header-sec-8 .col.space {
-    margin: 0 20px;
+  .section-8 .container .header-sec-8 .container {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
-  .section-8 .container .header-sec-8 .col.space .call-details {
-    display: flex;
-    margin-bottom: 5px;
+  .section-8 .container .header-sec-8 .container .col.offset-4 {
+    margin-left: 0;
   }
   .section-8 .container .body-sec-8 {
     flex-wrap: wrap;
+    margin-top: 36px;
   }
   .section-8 .container .body-sec-8 .appointment {
     margin-top: 20px;
@@ -1746,17 +1747,131 @@ span {
   .section-1 .container .row .col-lg-6 .card-group .card .card-body p {
     margin-bottom: 10px;
   }
+  .section-2 .img-bg-section-2 .container {
+    padding: 14px 11px;
+    top: 34px;
+    right: 20px;
+    max-width: 300px;
+    width: 100%;
+  }
+  .section-2 .img-bg-section-2 .container .about-us-Section-2 {
+    padding: 3.4px 12px;
+    margin-bottom: 2px;
+    max-width: 120px;
+  }
+  .section-2 .img-bg-section-2 .container .about-us-Section-2 h3 {
+    font-size: 10px;
+  }
+  .section-2 .img-bg-section-2 .container h4 {
+    font-size: 13px;
+    line-height: 16px;
+  }
+  .section-2 .img-bg-section-2 .container p {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0 0 7px 0;
+  }
+  .section-2 .img-bg-section-2 .container .about-us-more {
+    margin-bottom: 10px;
+  }
+  .section-2 .img-bg-section-2 .container .about-us-more .Multi-Speciality-Pharma-Treatment span,
+  .section-2 .img-bg-section-2 .container .about-us-more .Hours-Medical-Service span {
+    font-size: 10px;
+    line-height: 11px;
+  }
+  .section-2 .img-bg-section-2 .container .btn.btn-secondary {
+    padding: 8px 18px;
+    font-size: 10px;
+  }
   .section-3 .container {
     flex-direction: column;
+    align-items: center;
   }
   .section-3 .container .first-half-section-3 {
     width: 100%;
+    max-width: 555px;
+    margin-bottom: 10px;
   }
   .section-3 .container .second-half-section-3 {
     justify-content: center;
   }
+  .section-3 .container .second-half-section-3 .doc-name {
+    right: 177px;
+  }
+  .section-6 .container {
+    padding: 110px 10px;
+  }
+  .section-6 .container .header-sec-6 .head-text .medical-expert {
+    padding: 3px 16px;
+    margin-bottom: 6px;
+  }
+  .section-6 .container .header-sec-6 .head-text .medical-expert h3 {
+    font-size: 11px;
+  }
+  .section-6 .container .header-sec-6 .head-text h4 {
+    font-size: 26px;
+  }
+  .section-6 .container .carousel .carousel-inner .carousel-item .carousel-caption {
+    right: 36%;
+  }
+  .section-7 .container .header-sec-7 {
+    align-items: center;
+  }
+  .section-7 .container .header-sec-7 .head-text .medical-expert {
+    padding: 3px 18px;
+    margin-bottom: 5px;
+  }
+  .section-7 .container .header-sec-7 .head-text .medical-expert h3 {
+    font-size: 12px;
+  }
+  .section-7 .container .header-sec-7 .head-text h4 {
+    font-size: 24px;
+  }
+  .section-7 .container .header-sec-7 .btn.btn-primary {
+    padding: 8px 20px;
+    font-size: 12px;
+  }
   .section-7 .container .row .col .card {
     flex-direction: row;
+  }
+  .section-8 .container .header-sec-8 .col-2 {
+    padding: initial;
+  }
+  .section-8 .container .header-sec-8 .col .img-sec-8 {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+  }
+  .section-8 .container .header-sec-8 .col span {
+    font-size: 11px;
+  }
+  .section-8 .container .body-sec-8 .about-more {
+    max-width: 220px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .section-8 .container .body-sec-8 .explore h4,
+  .section-8 .container .body-sec-8 .Uitility-Pages h4 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .section-8 .container .body-sec-8 .explore a,
+  .section-8 .container .body-sec-8 .Uitility-Pages a {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .section-8 .container .body-sec-8 .appointment {
+    max-width: 280px;
+  }
+  .section-8 .container .body-sec-8 .appointment h3,
+  .section-8 .container .body-sec-8 .appointment h4 {
+    margin: 0 0 10px 0;
+  }
+  .section-8 .container .body-sec-8 .appointment .form-control {
+    padding: 10px 15px;
+  }
+  .section-9 .container span {
+    font-size: 10px;
   }
 }
 @media (max-width: 575.98px) {

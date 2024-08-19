@@ -835,7 +835,8 @@ span {
 
                 &.space {
                     margin: 0 53px;
-                    .call-details{
+
+                    .call-details {
                         display: none;
                     }
                 }
@@ -1662,30 +1663,37 @@ span {
         }
     }
 
-    .section-8{
-        .container{
-            .header-sec-8{
-                .col-2{
+    .section-8 {
+        .container {
+            .header-sec-8 {
+                .col-2 {
                     display: flex;
+                    align-items: center;
+                    width: 27%;
+                    margin-bottom: 8px;
                 }
-                .col{
-                    .call-details{
-                        display: none;
-                    }
-                    &.space {
-                        margin: 0  20px ;
-                        display: flex;
-                        flex-direction: column;
-                        .call-details{
-                            display: flex;
-                            margin-bottom: 5px  ;
+
+                .container {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+
+                    .col {
+                        &.offset-4 {
+                            margin-left: 0;
                         }
                     }
                 }
+
+
             }
-            .body-sec-8{
+
+            .body-sec-8 {
                 flex-wrap: wrap;
-                .appointment{
+                margin-top: 36px;
+
+                .appointment {
                     margin-top: 20px;
                     max-width: unset;
                 }
@@ -1803,48 +1811,57 @@ span {
             }
         }
     }
-    .section-1{
+
+    .section-1 {
         padding: 70px 0 80px;
-        .container{
-            .service-head{
-                h3{
+
+        .container {
+            .service-head {
+                h3 {
                     padding: 3px 10px;
                     font-size: 12px;
                 }
-                h4{
+
+                h4 {
                     font-size: 23px;
                 }
             }
-            .row{
-                .col-lg-6{
+
+            .row {
+                .col-lg-6 {
                     width: 100%;
                 }
 
                 .col-lg-3,
-                .col-lg-6{
-                    .card-group{
-                        .card{
+                .col-lg-6 {
+                    .card-group {
+                        .card {
                             max-width: 600px;
-                            &.combined{
+
+                            &.combined {
                                 display: flex;
+
                                 .card-body,
-                                .card-img{
+                                .card-img {
                                     width: 100%;
                                 }
-                                .card-img{
-                                    img{
+
+                                .card-img {
+                                    img {
                                         object-fit: contain;
                                     }
                                 }
                             }
-                            .card-body{
+
+                            .card-body {
                                 padding: 30px 20px;
-                                
-                                img{
+
+                                img {
                                     margin-bottom: 15px;
                                 }
+
                                 h5,
-                                p{
+                                p {
                                     margin-bottom: 10px;
                                 }
                             }
@@ -1854,21 +1871,141 @@ span {
             }
         }
     }
-    .section-3{
-        .container{
-            flex-direction: column;
-            .first-half-section-3{
+
+    .section-2 {
+        .img-bg-section-2 {
+            .container {
+                padding: 14px 11px;
+                top: 34px;
+                right: 20px;
+                max-width: 300px;
                 width: 100%;
-            }
-            .second-half-section-3{
-                justify-content: center;
+
+                .about-us-Section-2 {
+                    padding: 3.4px 12px;
+                    margin-bottom: 2px;
+                    max-width: 120px;
+
+                    h3 {
+                        font-size: 10px;
+                    }
+                }
+
+                h4 {
+                    font-size: 13px;
+                    line-height: 16px;
+                }
+
+                p {
+                    font-size: 10px;
+                    line-height: 12px;
+                    margin: 0 0 7px 0;
+                }
+
+                .about-us-more {
+                    margin-bottom: 10px;
+
+                    .Multi-Speciality-Pharma-Treatment,
+                    .Hours-Medical-Service {
+                        span {
+                            font-size: 10px;
+                            line-height: 11px;
+                        }
+                    }
+                }
+
+                .btn {
+                    &.btn-secondary {
+                        padding: 8px 18px;
+                        font-size: 10px;
+                    }
+                }
             }
         }
     }
 
-    
+    .section-3 {
+        .container {
+            flex-direction: column;
+            align-items: center;
+
+            .first-half-section-3 {
+                width: 100%;
+                max-width: 555px;
+                // display: flex;
+                // flex-direction: column;
+                // max-width: unset;
+                margin-bottom: 10px;
+            }
+
+            .second-half-section-3 {
+                justify-content: center;
+
+                .doc-name {
+                    right: 177px;
+                }
+            }
+        }
+    }
+
+    .section-6{
+        .container{
+            padding: 110px 10px;
+            .header-sec-6{
+                .head-text{
+                    .medical-expert{
+                        padding: 3px 16px;
+                        margin-bottom: 6px;
+                        h3{
+                            font-size: 11px;
+                        }
+                    }   
+                    h4{
+                        font-size: 26px;
+                    }
+                }
+            }
+            .carousel{
+                .carousel-inner{
+                    .carousel-item{
+                        .carousel-caption{
+                            right: 36%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     .section-7 {
         .container {
+            .header-sec-7 {
+                align-items: center;
+
+                .head-text {
+                    .medical-expert {
+                        padding: 3px 18px;
+                        margin-bottom: 5px;
+
+                        h3 {
+                            font-size: 12px;
+                        }
+                    }
+
+                    h4 {
+                        font-size: 24px;
+                    }
+                }
+
+                .btn {
+                    &.btn-primary {
+                        padding: 8px 20px;
+                        font-size: 12px;
+
+                    }
+                }
+            }
+
             .row {
                 .col {
                     .card {
@@ -1880,7 +2017,67 @@ span {
         }
     }
 
-    
+    .section-8 {
+        .container {
+            .header-sec-8 {
+                .col-2{
+                    padding: initial;
+                }
+                .col {
+
+                    .img-sec-8 {
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 15px;
+                    }
+                   span{
+                    font-size: 11px;
+                   }
+
+                }
+            }
+
+            .body-sec-8 {
+                .about-more {
+                    max-width: 220px;
+                    font-size: 22px;
+                    line-height: 28px;
+                }
+
+                .explore,
+                .Uitility-Pages {
+                    h4{
+                        font-size: 14px;
+                        line-height: 16px;
+                    }
+                    a{
+                        font-size: 13px;
+                        line-height: 22px;
+                    }
+                }
+
+                .appointment {
+                    max-width: 280px;
+
+                    h3,
+                    h4 {
+                        margin: 0 0 10px 0;
+                    }
+
+                    .form-control {
+                        padding: 10px 15px;
+                    }
+                }
+            }
+        }
+    }
+    .section-9{
+        .container{
+            span{
+                font-size: 10px;
+            }
+        }
+    }
 }
 
 // `sm` applies to x-small devices (portrait phones, less than 576px)
