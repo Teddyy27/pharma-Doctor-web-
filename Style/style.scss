@@ -51,10 +51,15 @@ span {
         }
     }
 
+    .max {
+        display: none;
+    }
+
     .container {
         .navbar {
             margin: 31px 0 23px 0;
             justify-content: end;
+
 
             .navbar-brand {
                 display: flex;
@@ -216,10 +221,22 @@ span {
                         max-height: 297.5px;
                         background-color: #F1F1F1;
 
+                        .card-body {
+                            .card-icon {
+                                max-width: 40px;
+
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                        }
+
                         &.combined {
                             display: flex;
                             flex-direction: row;
                             max-width: 589.29px;
+
+
 
                             .card-body,
                             .card-img {
@@ -231,6 +248,7 @@ span {
                                     object-fit: contain;
                                 }
                             }
+                            
 
 
                         }
@@ -242,7 +260,7 @@ span {
                         .card-body {
                             padding: 45px 30px;
 
-                            img {
+                            .card-icon {
                                 margin-bottom: 17.32px;
                             }
 
@@ -609,6 +627,10 @@ span {
                 }
 
                 .tick-check-img {
+                    img {
+                        width: 100%;
+                    }
+
                     margin-right: 9.21px;
                 }
             }
@@ -829,6 +851,18 @@ span {
 
     .container {
         .header-sec-8 {
+            .row {
+                .col-2 {
+                    .logo-details {
+                        .logo-img-sec-8 {
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+
             .col {
                 max-width: 213.82px;
                 padding: unset;
@@ -1338,67 +1372,105 @@ span {
             }
         }
 
-        .container {
-            .navbar {
-                margin: 21px 0 16px 0;
-                justify-content: end;
-                padding: unset;
-
-                .navbar-brand {
-                    img {
-                        width: 33%;
-                    }
-
-                    span {
-                        font-size: 22px;
-                    }
-                }
-
-                .navbar-toggler {
-                    margin-right: 15px;
-                    border: none;
-                }
-
-
-            }
-
-            .btn {
-                &.btn-primary {
-                    padding: 8px 20px;
-                    font-size: 15px;
-                }
-            }
+        .intial {
+            display: none;
         }
 
-        .hero {
-            .container {
-                .bg-img-pharma {
-                    .container {
-                        top: 50px;
-                        left: 80px;
-                        max-width: 360px;
+        .max {
+            display: block;
 
-                        h3 {
-                            font-size: 9px;
+            &.fixed-top {
+                position: unset;
+            }
+
+            .offcanvas {
+                .offcanvas-header {
+                    .offcanvas-title {
+                        display: flex;
+                        align-items: center;
+                        text-decoration: none;
+
+
+                        .logo-img {
+                            max-width: 36px;
+
+                            img {
+                                width: 100%;
+                            }
                         }
 
-                        h4 {
-                            font-size: 24px;
-                            line-height: 28px;
+                        span {
+                            font-size: 30px;
+                            font-weight: 600;
+                            line-height: 31.5px;
+                            color: #1C1C1C;
                         }
+                    }
+                }
+            }
 
-                        p {
-                            font-size: 12px;
-                            line-height: 17px;
-                            max-width: 366px;
-                            margin: 0 0 12px 0;
-                        }
+            // .container {
+            //     .navbar {
+            //         margin: 21px 0 16px 0;
+            //         justify-content: end;
+            //         padding: unset;
 
-                        .btn {
-                            &.btn-secondary {
-                                margin-top: 0px;
-                                padding: 8px 24px;
+            //         .navbar-brand {
+            //             img {
+            //                 width: 33%;
+            //             }
+
+            //             span {
+            //                 font-size: 22px;
+            //             }
+            //         }
+
+            //         .navbar-toggler {
+            //             margin-right: 15px;
+            //             border: none;
+            //         }
+
+
+            //     }
+
+            //     .btn {
+            //         &.btn-primary {
+            //             padding: 8px 20px;
+            //             font-size: 15px;
+            //         }
+            //     }
+            // }
+
+            .hero {
+                .container {
+                    .bg-img-pharma {
+                        .container {
+                            top: 50px;
+                            left: 80px;
+                            max-width: 360px;
+
+                            h3 {
+                                font-size: 9px;
+                            }
+
+                            h4 {
+                                font-size: 24px;
+                                line-height: 28px;
+                            }
+
+                            p {
                                 font-size: 12px;
+                                line-height: 17px;
+                                max-width: 366px;
+                                margin: 0 0 12px 0;
+                            }
+
+                            .btn {
+                                &.btn-secondary {
+                                    margin-top: 0px;
+                                    padding: 8px 24px;
+                                    font-size: 12px;
+                                }
                             }
                         }
                     }
@@ -1703,7 +1775,7 @@ span {
 }
 
 // `md` applies to small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
     .hero-section {
         .contact-reference {
             height: 48px;
@@ -1732,37 +1804,23 @@ span {
             }
         }
 
-        .container {
-            .navbar {
-                margin: 14px 0 10px 0;
-                justify-content: end;
-                padding: unset;
+        .max {
 
-                .navbar-brand {
+            .navbar-brand,
+            .offcanvas-title {
+                display: flex;
+                align-items: center;
+
+                .logo-img {
+                    max-width: 30px;
+
                     img {
-                        width: 22%;
-                    }
-
-                    span {
-                        font-size: 16px;
+                        width: 100%;
                     }
                 }
 
-                .navbar-toggler {
-                    margin-right: 15px;
-                    border: none;
-
-                    .navbar-toggler-icon {
-                        width: 1.2em;
-                        height: 1.2em;
-                    }
-                }
-            }
-
-            .btn {
-                &.btn-primary {
-                    padding: 5px 17px;
-                    font-size: 11px;
+                span {
+                    font-size: 20px;
                 }
             }
         }
@@ -1782,7 +1840,6 @@ span {
                                 padding: 0px 5px;
                             }
                         }
-
 
                         h4 {
                             font-size: 17px;
@@ -1814,13 +1871,17 @@ span {
 
         .container {
             .service-head {
+                margin-bottom: 10px;
+
                 h3 {
                     padding: 3px 10px;
                     font-size: 12px;
+                    line-height: 14px;
                 }
 
                 h4 {
-                    font-size: 23px;
+                    font-size: 22px;
+                    line-height: 26px;
                 }
             }
 
@@ -1835,17 +1896,27 @@ span {
                         .card {
                             max-width: 600px;
 
-                            &.combined {
-                                display: flex;
+                            .card-body {
+                                padding: 22px 17px;
 
-                                .card-body,
-                                .card-img {
-                                    width: 100%;
+                                .card-icon {
+                                    img {
+                                        margin-bottom: unset;
+                                    }
                                 }
 
-                                .card-img {
-                                    img {
-                                        object-fit: contain;
+                                &.combined {
+                                    display: flex;
+
+                                    .card-body,
+                                    .card-img {
+                                        width: 100%;
+                                    }
+
+                                    .card-img {
+                                        img {
+                                            object-fit: contain;
+                                        }
                                     }
                                 }
                             }
@@ -1857,11 +1928,20 @@ span {
                                     margin-bottom: 15px;
                                 }
 
+                                h5 {
+                                    font-size: 17px;
+                                }
+
+                                p {
+                                    font-size: 13px;
+                                }
+
                                 h5,
                                 p {
                                     margin-bottom: 10px;
                                 }
                             }
+
                         }
                     }
                 }
@@ -1929,9 +2009,6 @@ span {
             .first-half-section-3 {
                 width: 100%;
                 max-width: 555px;
-                // display: flex;
-                // flex-direction: column;
-                // max-width: unset;
                 margin-bottom: 10px;
             }
 
@@ -1945,28 +2022,73 @@ span {
         }
     }
 
-    .section-6{
-        .container{
+    .section-5 {
+        .container {
+            .row {
+                .col {
+                    &.space {
+                        margin: unset;
+                    }
+
+                    .tick-check-img {
+                        width: 14px;
+                        margin-right: 4px;
+                    }
+
+                    span {
+                        line-height: 14px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-6 {
+        .container {
             padding: 110px 10px;
-            .header-sec-6{
-                .head-text{
-                    .medical-expert{
+
+            .header-sec-6 {
+                .head-text {
+                    .medical-expert {
                         padding: 3px 16px;
                         margin-bottom: 6px;
-                        h3{
+
+                        h3 {
                             font-size: 11px;
                         }
-                    }   
-                    h4{
+                    }
+
+                    h4 {
                         font-size: 26px;
                     }
                 }
             }
-            .carousel{
-                .carousel-inner{
-                    .carousel-item{
-                        .carousel-caption{
+
+            .carousel {
+                .carousel-inner {
+                    .carousel-item {
+                        .carousel-caption {
                             right: 36%;
+                        }
+                    }
+                }
+            }
+
+            .expert-stats {
+                .row {
+                    .col {
+                        .head-text-stats {
+                            span {
+                                font-size: 36px;
+                                line-height: 42px;
+                            }
+                        }
+
+                        .sub-text-stats {
+                            span {
+                                font-size: 12px;
+                            }
                         }
                     }
                 }
@@ -1975,6 +2097,8 @@ span {
     }
 
     .section-7 {
+        padding: 101px 0 120px 0;
+
         .container {
             .header-sec-7 {
                 align-items: center;
@@ -1998,7 +2122,6 @@ span {
                     &.btn-primary {
                         padding: 8px 20px;
                         font-size: 12px;
-
                     }
                 }
             }
@@ -2010,27 +2133,41 @@ span {
                     }
                 }
             }
-
         }
     }
 
     .section-8 {
         .container {
             .header-sec-8 {
-                .col-2{
+                .row {
+                    .col-2 {
+                        .logo-details {
+                            span {
+                                font-size: 22px;
+                            }
+
+                            .logo-img-sec-8 {
+                                max-width: 40px;
+                            }
+                        }
+
+                    }
+                }
+
+                .col-2 {
                     padding: initial;
                 }
-                .col {
 
+                .col {
                     .img-sec-8 {
                         width: 30px;
                         height: 30px;
                         border-radius: 15px;
                     }
-                   span{
-                    font-size: 11px;
-                   }
 
+                    span {
+                        font-size: 11px;
+                    }
                 }
             }
 
@@ -2043,18 +2180,19 @@ span {
 
                 .explore,
                 .Uitility-Pages {
-                    h4{
+                    h4 {
                         font-size: 14px;
                         line-height: 16px;
                     }
-                    a{
+
+                    a {
                         font-size: 13px;
                         line-height: 22px;
                     }
                 }
 
                 .appointment {
-                    max-width: 280px;
+                    max-width: unset;
 
                     h3,
                     h4 {
@@ -2068,9 +2206,10 @@ span {
             }
         }
     }
-    .section-9{
-        .container{
-            span{
+
+    .section-9 {
+        .container {
+            span {
                 font-size: 10px;
             }
         }
@@ -2182,6 +2321,109 @@ span {
                         }
                     }
                 }
+            }
+        }
+    }
+
+    .section-1 {
+        padding: 70px 0 80px;
+
+        .container {
+            .service-head {
+                margin-bottom: 10px;
+
+                h3 {
+                    padding: 3px 8px;
+                    font-size: 10px;
+                    line-height: 14px;
+                }
+
+                h4 {
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+
+            .row {
+                .col-lg-6 {
+                    width: 100%;
+                }
+
+                .col-lg-3,
+                .col-lg-6 {
+                    padding: 0 45px;
+
+                    .card-group {
+                        .card {
+                            &.combined {
+                                display: flex;
+
+                                .card-icon{
+                                    max-width: 30px;
+                                }
+                                .card-img {
+                                    img {
+                                        object-fit: contain;
+                                    }
+                                }
+                            }
+
+                            .card-body,
+                            .card-img {
+                                width: 100%;
+                            }
+
+                            .card-body {
+                                padding: 22px 17px;
+
+                                .card-icon {
+                                    max-width: 30px;
+                                    // max-height: 32px;
+                                    img {
+                                        margin-bottom: unset;
+                                    }
+                                }
+
+                                
+                            }
+
+                            .card-body {
+                                padding: 30px 20px;
+
+                                .card-icon{
+                                    margin-bottom: 6px;
+                                }
+
+                                h5 {
+                                    font-size: 13px;
+                                }
+
+                                p {
+                                    font-size: 9px;
+                                }
+
+                                h5,
+                                p {
+                                    margin-bottom: 7px;
+                                }
+                                a{
+                                    font-size:11px ;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section-2{
+        .img-bg-section-2{
+            
+            .container{
+                top: 0;
+                right: 0;
             }
         }
     }

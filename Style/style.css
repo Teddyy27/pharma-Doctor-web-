@@ -539,6 +539,9 @@ span {
   justify-content: center;
   margin-right: 8.86px;
 }
+.hero-section .max {
+  display: none;
+}
 .hero-section .container .navbar {
   margin: 31px 0 23px 0;
   justify-content: end;
@@ -646,6 +649,14 @@ span {
   max-height: 297.5px;
   background-color: #F1F1F1;
 }
+.section-1 .container .row .col-lg-3 .card-group .card .card-body .card-icon,
+.section-1 .container .row .col-lg-6 .card-group .card .card-body .card-icon {
+  max-width: 40px;
+}
+.section-1 .container .row .col-lg-3 .card-group .card .card-body .card-icon img,
+.section-1 .container .row .col-lg-6 .card-group .card .card-body .card-icon img {
+  width: 100%;
+}
 .section-1 .container .row .col-lg-3 .card-group .card.combined,
 .section-1 .container .row .col-lg-6 .card-group .card.combined {
   display: flex;
@@ -671,8 +682,8 @@ span {
 .section-1 .container .row .col-lg-6 .card-group .card .card-body {
   padding: 45px 30px;
 }
-.section-1 .container .row .col-lg-3 .card-group .card .card-body img,
-.section-1 .container .row .col-lg-6 .card-group .card .card-body img {
+.section-1 .container .row .col-lg-3 .card-group .card .card-body .card-icon,
+.section-1 .container .row .col-lg-6 .card-group .card .card-body .card-icon {
   margin-bottom: 17.32px;
 }
 .section-1 .container .row .col-lg-3 .card-group .card .card-body h5,
@@ -954,6 +965,9 @@ span {
 .section-5 .container .row .col .tick-check-img {
   margin-right: 9.21px;
 }
+.section-5 .container .row .col .tick-check-img img {
+  width: 100%;
+}
 
 .section-6 {
   background-color: #0152A8;
@@ -1112,6 +1126,9 @@ span {
 .section-8 {
   background-color: #E5F2EF;
   padding: 95px 0 99.47px;
+}
+.section-8 .container .header-sec-8 .row .col-2 .logo-details .logo-img-sec-8 img {
+  width: 100%;
 }
 .section-8 .container .header-sec-8 .col {
   max-width: 213.82px;
@@ -1420,44 +1437,51 @@ span {
   .hero-section .contact-reference .container span {
     font-size: 10px;
   }
-  .hero-section .container .navbar {
-    margin: 21px 0 16px 0;
-    justify-content: end;
-    padding: unset;
+  .hero-section .intial {
+    display: none;
   }
-  .hero-section .container .navbar .navbar-brand img {
-    width: 33%;
+  .hero-section .max {
+    display: block;
   }
-  .hero-section .container .navbar .navbar-brand span {
-    font-size: 22px;
+  .hero-section .max.fixed-top {
+    position: unset;
   }
-  .hero-section .container .navbar .navbar-toggler {
-    margin-right: 15px;
-    border: none;
+  .hero-section .max .offcanvas .offcanvas-header .offcanvas-title {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
   }
-  .hero-section .container .btn.btn-primary {
-    padding: 8px 20px;
-    font-size: 15px;
+  .hero-section .max .offcanvas .offcanvas-header .offcanvas-title .logo-img {
+    max-width: 36px;
   }
-  .hero-section .hero .container .bg-img-pharma .container {
+  .hero-section .max .offcanvas .offcanvas-header .offcanvas-title .logo-img img {
+    width: 100%;
+  }
+  .hero-section .max .offcanvas .offcanvas-header .offcanvas-title span {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 31.5px;
+    color: #1C1C1C;
+  }
+  .hero-section .max .hero .container .bg-img-pharma .container {
     top: 50px;
     left: 80px;
     max-width: 360px;
   }
-  .hero-section .hero .container .bg-img-pharma .container h3 {
+  .hero-section .max .hero .container .bg-img-pharma .container h3 {
     font-size: 9px;
   }
-  .hero-section .hero .container .bg-img-pharma .container h4 {
+  .hero-section .max .hero .container .bg-img-pharma .container h4 {
     font-size: 24px;
     line-height: 28px;
   }
-  .hero-section .hero .container .bg-img-pharma .container p {
+  .hero-section .max .hero .container .bg-img-pharma .container p {
     font-size: 12px;
     line-height: 17px;
     max-width: 366px;
     margin: 0 0 12px 0;
   }
-  .hero-section .hero .container .bg-img-pharma .container .btn.btn-secondary {
+  .hero-section .max .hero .container .bg-img-pharma .container .btn.btn-secondary {
     margin-top: 0px;
     padding: 8px 24px;
     font-size: 12px;
@@ -1633,7 +1657,7 @@ span {
     max-width: unset;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   .hero-section .contact-reference {
     height: 48px;
   }
@@ -1653,28 +1677,22 @@ span {
   .hero-section .contact-reference .container span {
     font-size: 8px;
   }
-  .hero-section .container .navbar {
-    margin: 14px 0 10px 0;
-    justify-content: end;
-    padding: unset;
+  .hero-section .max .navbar-brand,
+  .hero-section .max .offcanvas-title {
+    display: flex;
+    align-items: center;
   }
-  .hero-section .container .navbar .navbar-brand img {
-    width: 22%;
+  .hero-section .max .navbar-brand .logo-img,
+  .hero-section .max .offcanvas-title .logo-img {
+    max-width: 30px;
   }
-  .hero-section .container .navbar .navbar-brand span {
-    font-size: 16px;
+  .hero-section .max .navbar-brand .logo-img img,
+  .hero-section .max .offcanvas-title .logo-img img {
+    width: 100%;
   }
-  .hero-section .container .navbar .navbar-toggler {
-    margin-right: 15px;
-    border: none;
-  }
-  .hero-section .container .navbar .navbar-toggler .navbar-toggler-icon {
-    width: 1.2em;
-    height: 1.2em;
-  }
-  .hero-section .container .btn.btn-primary {
-    padding: 5px 17px;
-    font-size: 11px;
+  .hero-section .max .navbar-brand span,
+  .hero-section .max .offcanvas-title span {
+    font-size: 20px;
   }
   .hero-section .hero .container .bg-img-pharma .container {
     top: 50px;
@@ -1704,12 +1722,17 @@ span {
   .section-1 {
     padding: 70px 0 80px;
   }
+  .section-1 .container .service-head {
+    margin-bottom: 10px;
+  }
   .section-1 .container .service-head h3 {
     padding: 3px 10px;
     font-size: 12px;
+    line-height: 14px;
   }
   .section-1 .container .service-head h4 {
-    font-size: 23px;
+    font-size: 22px;
+    line-height: 26px;
   }
   .section-1 .container .row .col-lg-6 {
     width: 100%;
@@ -1718,18 +1741,26 @@ span {
   .section-1 .container .row .col-lg-6 .card-group .card {
     max-width: 600px;
   }
-  .section-1 .container .row .col-lg-3 .card-group .card.combined,
-  .section-1 .container .row .col-lg-6 .card-group .card.combined {
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body {
+    padding: 22px 17px;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body .card-icon img,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body .card-icon img {
+    margin-bottom: unset;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body.combined,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body.combined {
     display: flex;
   }
-  .section-1 .container .row .col-lg-3 .card-group .card.combined .card-body,
-  .section-1 .container .row .col-lg-3 .card-group .card.combined .card-img,
-  .section-1 .container .row .col-lg-6 .card-group .card.combined .card-body,
-  .section-1 .container .row .col-lg-6 .card-group .card.combined .card-img {
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body.combined .card-body,
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body.combined .card-img,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body.combined .card-body,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body.combined .card-img {
     width: 100%;
   }
-  .section-1 .container .row .col-lg-3 .card-group .card.combined .card-img img,
-  .section-1 .container .row .col-lg-6 .card-group .card.combined .card-img img {
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body.combined .card-img img,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body.combined .card-img img {
     -o-object-fit: contain;
        object-fit: contain;
   }
@@ -1740,6 +1771,14 @@ span {
   .section-1 .container .row .col-lg-3 .card-group .card .card-body img,
   .section-1 .container .row .col-lg-6 .card-group .card .card-body img {
     margin-bottom: 15px;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body h5,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body h5 {
+    font-size: 17px;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body p,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body p {
+    font-size: 13px;
   }
   .section-1 .container .row .col-lg-3 .card-group .card .card-body h5,
   .section-1 .container .row .col-lg-3 .card-group .card .card-body p,
@@ -1798,6 +1837,17 @@ span {
   .section-3 .container .second-half-section-3 .doc-name {
     right: 177px;
   }
+  .section-5 .container .row .col.space {
+    margin: unset;
+  }
+  .section-5 .container .row .col .tick-check-img {
+    width: 14px;
+    margin-right: 4px;
+  }
+  .section-5 .container .row .col span {
+    line-height: 14px;
+    font-size: 10px;
+  }
   .section-6 .container {
     padding: 110px 10px;
   }
@@ -1813,6 +1863,16 @@ span {
   }
   .section-6 .container .carousel .carousel-inner .carousel-item .carousel-caption {
     right: 36%;
+  }
+  .section-6 .container .expert-stats .row .col .head-text-stats span {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .section-6 .container .expert-stats .row .col .sub-text-stats span {
+    font-size: 12px;
+  }
+  .section-7 {
+    padding: 101px 0 120px 0;
   }
   .section-7 .container .header-sec-7 {
     align-items: center;
@@ -1833,6 +1893,12 @@ span {
   }
   .section-7 .container .row .col .card {
     flex-direction: row;
+  }
+  .section-8 .container .header-sec-8 .row .col-2 .logo-details span {
+    font-size: 22px;
+  }
+  .section-8 .container .header-sec-8 .row .col-2 .logo-details .logo-img-sec-8 {
+    max-width: 40px;
   }
   .section-8 .container .header-sec-8 .col-2 {
     padding: initial;
@@ -1861,7 +1927,7 @@ span {
     line-height: 22px;
   }
   .section-8 .container .body-sec-8 .appointment {
-    max-width: 280px;
+    max-width: unset;
   }
   .section-8 .container .body-sec-8 .appointment h3,
   .section-8 .container .body-sec-8 .appointment h4 {
@@ -1931,5 +1997,88 @@ span {
     margin-top: 0px;
     padding: 3px 13px;
     font-size: 8px;
+  }
+  .section-1 {
+    padding: 70px 0 80px;
+  }
+  .section-1 .container .service-head {
+    margin-bottom: 10px;
+  }
+  .section-1 .container .service-head h3 {
+    padding: 3px 8px;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .section-1 .container .service-head h4 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .section-1 .container .row .col-lg-6 {
+    width: 100%;
+  }
+  .section-1 .container .row .col-lg-3,
+  .section-1 .container .row .col-lg-6 {
+    padding: 0 45px;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card.combined,
+  .section-1 .container .row .col-lg-6 .card-group .card.combined {
+    display: flex;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card.combined .card-icon,
+  .section-1 .container .row .col-lg-6 .card-group .card.combined .card-icon {
+    max-width: 30px;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card.combined .card-img img,
+  .section-1 .container .row .col-lg-6 .card-group .card.combined .card-img img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body,
+  .section-1 .container .row .col-lg-3 .card-group .card .card-img,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-img {
+    width: 100%;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body {
+    padding: 22px 17px;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body .card-icon,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body .card-icon {
+    max-width: 30px;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body .card-icon img,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body .card-icon img {
+    margin-bottom: unset;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body {
+    padding: 30px 20px;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body .card-icon,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body .card-icon {
+    margin-bottom: 6px;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body h5,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body h5 {
+    font-size: 13px;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body p,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body p {
+    font-size: 9px;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body h5,
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body p,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body h5,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body p {
+    margin-bottom: 7px;
+  }
+  .section-1 .container .row .col-lg-3 .card-group .card .card-body a,
+  .section-1 .container .row .col-lg-6 .card-group .card .card-body a {
+    font-size: 11px;
+  }
+  .section-2 .img-bg-section-2 .container {
+    top: 0;
+    right: 0;
   }
 }/*# sourceMappingURL=style.css.map */
