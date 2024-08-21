@@ -1700,6 +1700,7 @@ span {
                         }
 
                         .carousel-caption {
+                            flex-direction: column;
                             left: unset;
                             bottom: -120px;
                             right: 38.8%;
@@ -2078,6 +2079,7 @@ span {
                     .carousel-item {
                         .carousel-caption {
                             right: 36%;
+                            flex-direction: column;
                         }
                     }
                 }

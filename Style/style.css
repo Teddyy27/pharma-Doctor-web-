@@ -1617,6 +1617,7 @@ span {
     justify-content: center;
   }
   .section-6 .container .carousel .carousel-inner .carousel-item .carousel-caption {
+    flex-direction: column;
     left: unset;
     bottom: -120px;
     right: 38.8%;
@@ -1870,6 +1871,7 @@ span {
   }
   .section-6 .container .carousel .carousel-inner .carousel-item .carousel-caption {
     right: 36%;
+    flex-direction: column;
   }
   .section-6 .container .expert-stats .row .col .head-text-stats span {
     font-size: 36px;
