@@ -248,7 +248,7 @@ span {
                                     object-fit: contain;
                                 }
                             }
-                            
+
 
 
                         }
@@ -1372,6 +1372,7 @@ span {
             }
         }
 
+
         .intial {
             display: none;
         }
@@ -1381,6 +1382,13 @@ span {
 
             &.fixed-top {
                 position: unset;
+            }
+            .container-fluid{
+                padding: 0 20px;
+                .navbar-brand{
+                    display: flex;
+                    align-items: center;
+                }
             }
 
             .offcanvas {
@@ -2358,9 +2366,15 @@ span {
                             &.combined {
                                 display: flex;
 
-                                .card-icon{
+                                .card-icon {
                                     max-width: 30px;
+
+                                    img {
+                                        height: 28px;
+                                        object-fit: contain;
+                                    }
                                 }
+
                                 .card-img {
                                     img {
                                         object-fit: contain;
@@ -2378,19 +2392,20 @@ span {
 
                                 .card-icon {
                                     max-width: 30px;
+
                                     // max-height: 32px;
                                     img {
                                         margin-bottom: unset;
                                     }
                                 }
 
-                                
+
                             }
 
                             .card-body {
                                 padding: 30px 20px;
 
-                                .card-icon{
+                                .card-icon {
                                     margin-bottom: 6px;
                                 }
 
@@ -2406,8 +2421,9 @@ span {
                                 p {
                                     margin-bottom: 7px;
                                 }
-                                a{
-                                    font-size:11px ;
+
+                                a {
+                                    font-size: 11px;
                                 }
                             }
 
@@ -2418,12 +2434,557 @@ span {
         }
     }
 
-    .section-2{
-        .img-bg-section-2{
-            
-            .container{
-                top: 0;
-                right: 0;
+    .section-2 {
+        .img-bg-section-2 {
+            .img-fluid {
+                display: none;
+            }
+
+            .container {
+                position: unset;
+                // top: 0;
+                // right: 0;
+                margin: unset;
+                max-width: 500px;
+
+                .about-us-Section-2 {
+                    max-width: 150px;
+                    margin-bottom: 10px;
+
+                    h3 {
+                        font-size: 15px;
+                    }
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 16px;
+                    margin-bottom: 7px;
+                }
+            }
+        }
+
+        .container {
+            padding: 0 15px;
+
+            .row {
+
+                // max-width: 550px;
+                .col {
+                    max-width: 90px;
+
+                    h5 {
+                        font-size: 13px;
+                        line-height: 16px;
+                    }
+
+                    &.spacing {
+                        h5 {
+                            font-size: 14px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section-3 {
+        .container {
+            .first-half-section-3 {
+                h4 {
+                    font-size: 22px;
+                    line-height: 26px;
+                }
+
+                p {
+                    font-size: 16px;
+                    line-height: 19px;
+                }
+
+                .quality-1,
+                .quality-2 {
+                    span {
+                        font-size: 12px;
+                    }
+
+                    img {
+                        padding: 1.2px 6px 1.2px 0;
+                    }
+                }
+
+                .btn {
+                    &.btn-secondary {
+                        padding: 14px 32px;
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .second-half-section-3 {
+                position: relative;
+
+                // .img-doc-1{
+                //     position: relative;
+                // }
+                .doc-name {
+                    left: 0;
+                    right: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    z-index: 6;
+                    max-width: 200px;
+
+                    h4 {
+                        font-size: 15px;
+                    }
+
+                    span {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-4 {
+        .container {
+            .feedback-head {
+                h4 {
+                    font-size: 22px;
+                    line-height: 26px;
+                }
+            }
+
+            .row {
+                .col-md-6 {
+                    .feedback-card {
+                        .card-person-img {
+                            max-width: 48px;
+                            max-height: 48px;
+                        }
+
+                        h5 {
+                            font-size: 16px;
+                            line-height: 18px;
+                        }
+
+                        small {
+                            font-size: 14px;
+                            line-height: 14px;
+                        }
+
+                        hr {
+                            margin: 10px 0;
+                        }
+
+                        p {
+                            font-size: 14px;
+                            line-height: 19px;
+                            margin-bottom: 18px;
+                        }
+
+                        .stars {
+                            max-width: 120px;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .section-5 {
+        margin-top: 90px;
+
+        .container {
+            margin: 80px 0 120px;
+
+            .head-section-5 {
+                p {
+                    line-height: 16px;
+                }
+            }
+
+            .row {
+                .col {
+                    span {
+                        line-height: 10px;
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-6 {
+        .container {
+            .header-sec-6 {
+                .head-text {
+                    .medical-expert {
+                        padding: 2.5px 12px;
+                        margin-bottom: 0;
+                    }
+
+                    h4 {
+                        font-size: 20px;
+                    }
+                }
+
+                .btn {
+                    &.btn-primary {
+                        font-size: 12px;
+                        padding: 10px 28px;
+                    }
+                }
+            }
+
+            .carousel {
+                .carousel-inner {
+                    .carousel-item {
+                        .carousel-caption {
+                            left: 0;
+                            right: 0;
+                            margin-left: auto;
+                            margin-right: auto;
+                            max-width: 200px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:465px) {
+    .hero-section {
+        .contact-reference {
+            .container {
+                .col {
+                    &.more {
+                        max-width: 180px;
+                    }
+                }
+
+                .col-2 {
+                    width: 25%;
+
+                    &.offset-4 {
+                        margin-left: 5%;
+                    }
+                }
+            }
+        }
+
+        .hero {
+            .container {
+                .bg-img-pharma {
+                    .container {
+                        top: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-1 {
+        .container {
+            .row {
+
+                .col-lg-6,
+                .col-lg-3 {
+                    .card-group {
+                        .card {
+                            .card-body {
+                                padding: 12px 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section-2 {
+        .img-bg-section-2 {
+            margin-bottom: 20px;
+        }
+
+        .container {
+            .row {
+                .col {
+                    img {
+                        margin-right: 1px;
+                    }
+
+                    h5 {
+                        font-size: 10px;
+                    }
+
+                    &.spacing {
+                        h5 {
+                            font-size: 10px;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .section-3 {
+        .container {
+            .first-half-section-3 {
+                h4 {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+
+                p {
+                    font-size: 13px;
+                    line-height: 15px;
+                }
+
+                .quality-1,
+                .quality-2 {
+                    span {
+                        font-size: 10px;
+                    }
+
+                    img {
+                        padding: 1px 4px 1px 0;
+                    }
+                }
+
+                .btn {
+                    &.btn-secondary {
+                        padding: 11px 25px;
+                        // font-size: 12px;
+                    }
+                }
+            }
+
+            .second-half-section-3 {
+                // position: relative;
+
+                // .img-doc-1{
+                //     position: relative;
+                // }
+                .doc-name {
+                    padding: 8px 17px;
+                }
+            }
+        }
+    }
+
+    .section-4 {
+        .container {
+            .feedback-head {
+                h4 {
+                    font-size: 19px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+
+    .section-5 {
+        .container {
+            .head-section-5 {
+                .why-choose-pharma {
+                    padding: 0;
+                    margin-bottom: 10px;
+
+                    h3 {
+                        font-size: 12px;
+                    }
+                }
+
+                p {
+                    font-size: 10px;
+                    line-height: 13px;
+                }
+
+                margin-bottom: 24px;
+            }
+
+            .row {
+                &.lower {
+                    margin-top: 8px;
+                }
+
+                .col {
+
+                    &.space {
+                        padding: 0 4px;
+                    }
+
+                    span {
+                        font-size: 6px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-6 {
+        .container {
+            .header-sec-6 {
+                .head-text {
+                    .medical-expert {
+                        padding: 2px 8px;
+                        margin-bottom: 0;
+
+                    }
+
+                    h4 {
+                        font-size: 16px;
+                    }
+                }
+
+                .btn {
+                    &.btn-primary {
+                        font-size: 12px;
+                        padding: 6px 20px;
+                    }
+                }
+            }
+
+            .carousel {
+                .carousel-inner {
+                    .carousel-item {
+                        .carousel-caption {
+                            left: 0;
+                            right: 0;
+                            margin-left: auto;
+                            margin-right: auto;
+                            max-width: 200px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    .section-7 {
+        padding: 62px 0;
+        .container {
+            .header-sec-7 {
+                .head-text {
+                    .medical-expert {
+                        padding: 3px 13px;
+                    }
+
+                    h4 {
+                        font-size: 18px;
+                        line-height: 20px;
+                    }
+                }
+
+                .btn {
+                    &.btn-primary {
+                        padding: 6px 14px;
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            .row {
+                .col {
+                    .card {
+                        .card-body {
+                            margin: 10px 20px 0 10px;
+
+                            .card-title {
+                                margin-bottom: 12px;
+                                font-size: 11px;
+                            }
+
+                            .card-text {
+                                font-size: 16px;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section-8 {
+        padding: 60px 0;
+
+        .container {
+            .header-sec-8 {
+                .call-details {
+                    span {
+                        line-height: 14px;
+                    }
+                }
+
+                ::before {
+                    font-size: large;
+                }
+                .col-2{
+                    width: 32%;
+                }
+                .col 
+                {
+                    &.last{
+                        max-width: 85px;
+                    }
+                    &.space{
+                        margin: 0 5px;
+                    }
+                    .ref-link {
+                        width: 90px;
+                        
+                    }
+                }
+            }
+
+            .body-sec-8{
+                .about-more{
+                    font-size: 18px;
+                    line-height: 21px;
+                    max-width: 150px;
+                }
+                .explore, .Uitility-Pages{
+                    h4{
+                        font-size: 12px;
+                        line-height: 14px;
+                    }
+                    .explore-content, .Uitility-content{
+                        a{
+                            font-size: 12px;
+                            line-height: 17px;
+                        }
+                    }
+                }
+                .appointment{
+                    h4{
+                        font-size: 13px;
+                        line-height: 18px;
+                    }
+                    .btn{
+                        &.btn-secondary{
+                            padding: 10px 30px;
+                        }
+                    }
+                }
             }
         }
     }
